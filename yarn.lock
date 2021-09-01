@@ -1231,6 +1231,16 @@
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
+"@fontsource/acme@^4.5.0":
+  "integrity" "sha512-gyN3/QA0+qGfCLbMnGojctbZOAOr5L50kBb9cyqS06CGCafCTwnoAZXse74tSpmfCEgWav3qUx9cECaBCy196A=="
+  "resolved" "https://registry.npmjs.org/@fontsource/acme/-/acme-4.5.0.tgz"
+  "version" "4.5.0"
+
+"@fontsource/koho@^4.5.0":
+  "integrity" "sha512-+jPeFVqvr/fG33a01kX2hvju4fvU8oztkiwtuno7P3UJuZVNzg41cK6M5ewHBqa/vn1Huol4YSQVHtF4a0yCyg=="
+  "resolved" "https://registry.npmjs.org/@fontsource/koho/-/koho-4.5.0.tgz"
+  "version" "4.5.0"
+
 "@hapi/address@2.x.x":
   "integrity" "sha512-QD1PhQk+s31P1ixsX0H0Suoupp3VMXzIVMSwobR3F3MSUO2YCV0B7xqLcUw/Bh8yuvd3LhpyqLQWTNcRmp6IdQ=="
   "resolved" "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz"
@@ -6646,6 +6656,7 @@
     "jest-snapshot" "^26.6.2"
 
 "jest-resolve@*":
+  "integrity" "sha512-tRAz2bwraHufNp+CCmAD8ciyCpXCs1NQxB5EJAmtCFy6BN81loFEGWKzYu26Y62lAJJe4X4jg36Kf+NsQyiStQ=="
   "version" "26.6.0"
   dependencies:
     "@jest/types" "^26.6.0"

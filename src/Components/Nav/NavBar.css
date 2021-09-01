@@ -1,7 +1,7 @@
 :root {
-    --primary: #fff;
-    --turquoise: #08a4b3;
-    --dark: #042443;
+    --primary: rgb(235, 229, 176);
+    --turquoise: #7bc6f5;
+    --dark: #170e54;
     --yellow: #fbdb04;
 }
 
@@ -11,7 +11,7 @@ background: var(--turquoise);
 border-bottom: 5px solid var(--dark);
 display: flex;
 font-size: 1.2rem;
-height: 80px;
+height:100px;
 justify-content: center;
 position: sticky;
 top: 0;
@@ -33,7 +33,7 @@ align-items: left;
 color: var(--dark);
 cursor: pointer;
 display: flex;
-font-family: 'Acme';
+font-family: 'Koho';
 font-size: 4rem;
 justify-self: start;
 margin-left: 0px;
@@ -96,7 +96,7 @@ position: relative;
 align-items: center;
 color: var(--dark);
 display: flex;
-font-family: 'League Gothic';
+font-family: 'KoHo';
 font-size: 30px;
 height: 100%;
 padding: 0.5rem 1rem;

@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Acme';
+    src: local('Acme'),
+        url('./Acme.ttf') format('ttf'),
+};
+@font-face {
+    font-family: 'KoHo';
+    src: local('Koho'),
+        url('./Koho.ttf') format('ttf'),
+};
