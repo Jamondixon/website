@@ -3,7 +3,14 @@ import './About.css'
 
 const About = () => {
     return (
+        <div>
         <Nav />
+        <div>
+            <div>
+                <h1>About</h1>
+            </div>
+        </div>
+        </div>
     );
 };
 
