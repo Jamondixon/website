@@ -36,6 +36,7 @@ const About = () => {
                                                 <li className='skill-list-item'>Javascript</li>
                                                 <li className='skill-list-item'>React</li>
                                                 <li className='skill-list-item'>React Native</li>
+                                                <li className='skill-list-item'>Git</li>
                                             </ul>
                                         </p>
                                     </div>
