@@ -1,0 +1,11 @@
+:root {
+    --cream: #F8F0DF;
+    --lightBlue: #7bc6f5;
+    --black: #000000;
+    --grey: #9D9D9D;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 4rem;
+}

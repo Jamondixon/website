@@ -24,7 +24,7 @@ const Blogs = () => {
                             <h3 className="card-date">May 9th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-two">
+                    <div className="card two">
                         <div className="card-title-container">
                             <h2 className="card-title">An ode to JSX</h2>
                             <a className="card-link"
@@ -38,7 +38,7 @@ const Blogs = () => {
                             <h3 className="card-date">July 19th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-three">
+                    <div className="card three">
                         <div className="card-title-container">
                             <h2 className="card-title">Hooks and Ladders Pt. 1</h2>
                             <a className="card-link"
@@ -52,7 +52,7 @@ const Blogs = () => {
                             <h3 className="card-date">July 26th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-four">
+                    <div className="card four">
                         <div className="card-title-container">
                             <h2 className="card-title">You down with SDLC...</h2>
                             <a className="card-link"
@@ -66,7 +66,7 @@ const Blogs = () => {
                             <h3 className="card-date">August 2nd, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-five">
+                    <div className="card five">
                         <div className="card-title-container">
                             <h2 className="card-title">Hooks and Ladders Pt. 2</h2>
                             <a className="card-link"
@@ -80,7 +80,7 @@ const Blogs = () => {
                             <h3 className="card-date">August 9th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-six">
+                    <div className="card six">
                         <div className="card-title-container">
                             <h2 className="card-title">A nod to Node.js</h2>
                             <a className="card-link"
@@ -94,7 +94,7 @@ const Blogs = () => {
                             <h3 className="card-date">August 16th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-seven">
+                    <div className="card seven">
                         <div className="card-title-container">
                             <h2 className="card-title">The Science of Semantic HTML</h2>
                             <a className="card-link"
@@ -108,7 +108,7 @@ const Blogs = () => {
                             <h3 className="card-date">August 18th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-eight">
+                    <div className="card eight">
                         <div className="card-title-container">
                             <h2 className="card-title">3.2.1…We Have Deployment! Pt. 1</h2>
                             <a className="card-link"
@@ -122,7 +122,7 @@ const Blogs = () => {
                             <h3 className="card-date">August 29th, 2021</h3>
                         </div>
                     </div>
-                    <div className="card-eight">
+                    <div className="card nine">
                         <div className="card-title-container">
                             <h2 className="card-title">3.2.1…We Have Deployment! pt. 2</h2>
                             <a className="card-link"

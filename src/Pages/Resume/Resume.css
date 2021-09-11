@@ -5,6 +5,10 @@
     --grey: #9D9D9D;
 }
 
+.resume-title {
+    text-align: center;
+    font-size: 4rem;
+}
 
 .pdf-container {
     height: 30em;
