@@ -19,7 +19,11 @@ const Contact = () => {
                 <div className="conctact-details-container">
                     <div className="contact-email-container">
                         <h3 className="contact-email-title">EMAIL</h3>
-                        <h4 className="contact-email-title">Jamonadixon@gmail.com</h4>
+                        <h4 className="contact-email-value">Jamonadixon@gmail.com</h4>
+                    </div>
+                    <div className="contact-phone-container">
+                        <h3 className="contact-phone-title">PHONE</h3>
+                        <h4 className="contact-phone-value">806-620-6896</h4>
                     </div>
                     <div className="contact-icons-container">
                         <div className="contact-icons-inner-container">
