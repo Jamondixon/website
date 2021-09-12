@@ -9,3 +9,98 @@
     text-align: center;
     font-size: 4rem;
 }
+
+.projects-container {
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-card-container {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-row-gap: 3em;
+    grid-template-columns: repeat(3, auto);
+    margin-bottom: 4em;
+    max-width: 100%;
+}
+
+.projects-card {
+    background: url('../../Images/303quesofinder.png') no-repeat center;
+    background-size: 105%;
+    border: 6px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    color: var(--lightBlue);
+    height: 500px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 425px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    transition: all 0.4s;
+    width: 100%;
+}
+
+.projects-card-two {
+    background: url('../../Images/cryptocurrent.png') no-repeat center;
+    background-size: 105%;
+    border: 6px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    color: var(--lightBlue);
+    height: 500px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 425px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    transition: all 0.4s;
+    width: 100%;
+}
+
+.projects-card-three {
+    background: url('../../Images/hooks.png') no-repeat center;
+    background-size: 200%;
+    border: 6px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    color: var(--lightBlue);
+    height: 500px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 425px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    transition: all 0.4s;
+    width: 100%;
+}
+
+.projects-card-four {
+    background: url('../../Images/justflingit.png') no-repeat center;
+    background-size: 105%;
+    border: 6px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    color: var(--lightBlue);
+    height: 500px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 425px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    transition: all 0.4s;
+    width: 100%;
+}
