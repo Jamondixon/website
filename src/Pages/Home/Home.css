@@ -1,0 +1,25 @@
+:root {
+    --cream: #F8F0DF;
+    --lightBlue: #7bc6f5;
+    --black: #000000;
+    --grey: #9D9D9D;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'KoHo';
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    background: url('../../Images/beams.jpg') no-repeat center;
+    background-position: cover;
+}
+
+.home-title-container {
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    background-size: 100%;
+    
+}

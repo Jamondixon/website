@@ -7,5 +7,20 @@
 
 .contact-title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: 'KoHo';
+}
+
+
+.contact-container {
+    background-position: cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4em;
+    background: url('../../Images/beams.jpg') no-repeat center;
+}
+
+.contact-title-container {
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    background-size: 100%;
 }

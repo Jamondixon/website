@@ -7,5 +7,24 @@
 
 .about-title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: 'KoHo';
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    background: url('../../Images/beams.jpg') no-repeat center;
+    background-position: cover;
+}
+
+.about-title-container {
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    background-size: 100%;
+    
+}
+
+img {
+    max-height: 400px;
+    max-width: 400px;
 }

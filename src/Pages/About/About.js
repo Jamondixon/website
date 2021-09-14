@@ -5,7 +5,7 @@ import Cancun from '../../Images/profpic.jpg'
 
 const About = () => {
     return (
-        <div>
+        <div className="about-overall-container">
             <Nav />
             <div className="about-container">
                 <div className="about-title-container">

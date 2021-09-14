@@ -8,7 +8,7 @@
 
 .navbar {
 align-items: center;
-background: var(--lightBlue);
+background: url('../../Images/beams.jpg') no-repeat center;
 border-bottom: 5px solid var(--black);
 display: flex;
 font-size: 1.2rem;

@@ -7,7 +7,21 @@
 
 .resume-title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: 'KoHo';
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    background: url('../../Images/beams.jpg') no-repeat center;
+    background-position: cover;
+}
+
+.resume-title-container {
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    background-size: 100%;
+    
 }
 
 .pdf-container {

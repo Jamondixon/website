@@ -17,7 +17,11 @@
     flex-direction: column;
     padding-bottom: 4em;
     background: url('../../Images/beams.jpg') no-repeat center;
-    background-position: cover;
+}
+
+.projects-title-container {
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    background-size: 100%;
     
 }
 
@@ -29,11 +33,6 @@
     margin-bottom: 4em;
     max-width: 100%;
     border-top: 6px solid var(--black);
-    
-}
-.projects-title-container {
-    background: url('../../Images/pool copy.jpg') no-repeat center;
-    background-size: 100%;
     
 }
 
