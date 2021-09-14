@@ -12,7 +12,7 @@ const Projects = () => {
                 <div className="projects-card-container">
                     <div className="projects-card">
                         <div className="projects-card-title-container">
-                            <h2 className="projects-card-title">303 QUESOFINDER</h2>
+                            <h2 className="projects-card-title">303 QuesoFinder</h2>
                             <a className="projects-card-link"
                             href='https://hopeful-raman-70b1e5.netlify.app/'
                             target='_blank'

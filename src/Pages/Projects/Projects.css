@@ -7,35 +7,54 @@
 
 .projects-title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: 'KoHo';
+    
 }
 
 .projects-container {
     background-position: cover;
     display: flex;
     flex-direction: column;
+    padding-bottom: 4em;
+    background-image: url(../../Images/droplets.jpg);
+    background-position: cover;
+    
 }
 
 .projects-card-container {
     display: grid;
     grid-column-gap: 1em;
     grid-row-gap: 3em;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
     margin-bottom: 4em;
     max-width: 100%;
+    
+}
+.projects-title-container {
+    background: url('../../Images/pool copy.jpg') no-repeat center;
+    background-size: 100%;
+}
+
+.projects-card-title {
+    font-size: 2.5em;
+    color: var(--grey);
+    font-family: 'KoHo';
+    text-shadow: 2px 2px black;
+    padding-bottom: .4em;
 }
 
 .projects-card {
     background: url('../../Images/303quesofinder.png') no-repeat center;
-    background-size: 105%;
+    background-size: 130%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
     color: var(--lightBlue);
-    height: 500px;
+    height: 600px;
     left: 0;
     margin: 0 auto;
-    max-width: 425px;
+    max-width: 700px;
     overflow: hidden;
     position: relative;
     right: 0;
@@ -47,15 +66,15 @@
 
 .projects-card-two {
     background: url('../../Images/cryptocurrent.png') no-repeat center;
-    background-size: 105%;
+    background-size: 125%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
     color: var(--lightBlue);
-    height: 500px;
+    height: 600px;
     left: 0;
     margin: 0 auto;
-    max-width: 425px;
+    max-width: 700px;
     overflow: hidden;
     position: relative;
     right: 0;
@@ -67,15 +86,15 @@
 
 .projects-card-three {
     background: url('../../Images/hooks.png') no-repeat center;
-    background-size: 200%;
+    background-size: 160%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
     color: var(--lightBlue);
-    height: 500px;
+    height: 600px;
     left: 0;
     margin: 0 auto;
-    max-width: 425px;
+    max-width: 700px;
     overflow: hidden;
     position: relative;
     right: 0;
@@ -87,15 +106,15 @@
 
 .projects-card-four {
     background: url('../../Images/justflingit.png') no-repeat center;
-    background-size: 105%;
+    background-size: 140%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
     color: var(--lightBlue);
-    height: 500px;
+    height: 600px;
     left: 0;
     margin: 0 auto;
-    max-width: 425px;
+    max-width: 700px;
     overflow: hidden;
     position: relative;
     right: 0;
