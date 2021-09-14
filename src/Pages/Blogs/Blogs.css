@@ -4,16 +4,23 @@
     --black: #000000;
     --grey: #9D9D9D;
 }
+.blogs-title-container {
+    background: url('../../Images/pool copy.jpg') no-repeat center;
+    background-size: 100%;
+    
+}
 
 .blogs-title {
     text-align: center;
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: 'KoHo';
 }
 
 .blogs-container {
     background-position: cover;
     display: flex;
     flex-direction: column;
+    background: url('../../Images/beams.jpg') no-repeat center;
 }
 
 .card-container {
@@ -23,6 +30,7 @@
     grid-template-columns: repeat(3, auto);
     margin-bottom: 4em;
     max-width: 100%;
+    border-top: 6px solid var(--black);
 }
 
 .card {

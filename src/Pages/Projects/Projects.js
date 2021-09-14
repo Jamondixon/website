@@ -19,7 +19,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>CHECK IT OUT!</button>
+                                buttonStyle='primary--btn'>Click to View</button>
                             </a>
                             <h3 className="projects-card-description">SPA designed to showcase, rate, and point people in the direction of Denver’s best queso</h3>
                         </div>
@@ -33,7 +33,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>CHECK IT OUT!</button>
+                                buttonStyle='primary--btn'>Click to View</button>
                             </a>
                             <h3 className="projects-card-description">JavaScript application to track cryptocurrency prices in real time with graphical representation, favorites list and calendar time search features.</h3>
                         </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>CHECK IT OUT!</button>
+                                buttonStyle='primary--btn'>Click to View</button>
                             </a>
                             <h3 className="projects-card-description">React Native mobile app to help people connect with others at the same event to help them find items they may have forgotten after arrival.</h3>
                         </div>
@@ -61,9 +61,9 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>CHECK IT OUT!</button>
+                                buttonStyle='primary--btn'>Click to View</button>
                             </a>
-                            <h3 className="projects-card-description">Website to help connect disc golfers with the best custon dyed discs</h3>
+                            <h3 className="projects-card-description">JavaScript website to help connect disc golfers with the best custom-dyed discs</h3>
                         </div>
                     </div>
                 </div>
