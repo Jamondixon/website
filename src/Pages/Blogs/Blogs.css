@@ -1,9 +1,13 @@
 :root {
     --cream: #F8F0DF;
-    --lightBlue: #7bc6f5;
+    --lightBlue: #55ffff;
     --black: #000000;
     --grey: #9D9D9D;
+    --darkblue: #3d7791;
+    --gold: #decd82;
+    --red: #f40305;
 }
+
 .blogs-title-container {
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
@@ -14,6 +18,7 @@
     text-align: center;
     font-size: 6rem;
     font-family: 'KoHo';
+    text-shadow:   2px -3px 2px var(--lightblue);
 }
 
 .blogs-container {
@@ -38,7 +43,7 @@
     background-size: 200%;
     border: 6px solid var(--black);
     border-radius: 10px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 20px 20px 0px var(--darkblue);
     color: var(--lightBlue);
     height: 500px;
     left: 0;
@@ -51,6 +56,10 @@
     top: 10%;
     transition: all 0.4s;
     width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.2);
 }
 
 .two {

@@ -1,14 +1,18 @@
 :root {
     --cream: #F8F0DF;
-    --lightBlue: #7bc6f5;
+    --lightBlue: #55ffff;
     --black: #000000;
     --grey: #9D9D9D;
+    --darkblue: #3d7791;
+    --gold: #decd82;
+    --red: #f40305;
 }
 
 .home-title {
     text-align: center;
     font-size: 6rem;
     font-family: 'KoHo';
+    text-shadow:   2px -3px 2px var(--lightblue);
 }
 
 .home-container {

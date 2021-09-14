@@ -1,9 +1,11 @@
-
 :root {
     --cream: #F8F0DF;
-    --lightBlue: #7bc6f5;
+    --lightBlue: #55ffff;
     --black: #000000;
     --grey: #9D9D9D;
+    --darkblue: #3d7791;
+    --gold: #decd82;
+    --red: #f40305;
 }
 
 .navbar {
@@ -36,6 +38,8 @@ cursor: pointer;
 display: flex;
 font-family: 'Koho';
 font-size: 4rem;
+font-weight: 900;
+text-shadow: 3px 6px var(--lightblue);
 justify-self: start;
 margin-left: 0px;
 position: relative;
@@ -95,6 +99,7 @@ color: var(--black);
 display: flex;
 font-family: 'KoHo';
 font-size: 30px;
+font-weight: 700;
 height: 100%;
 padding: 0.5rem 1rem;
 text-decoration: none;
@@ -107,7 +112,7 @@ width: 100%;
 height: 5px;
 bottom: 0.5em;
 left: 0;
-background-color: var(--cream);
+background-color: var(--red);
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.5s ease-in-out;
@@ -120,7 +125,7 @@ width: 100%;
 height: 5px;
 bottom: 0.5em;
 left: 0;
-background-color: var(--cream);
+background-color: var(--red);
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.5s ease-in-out;
@@ -133,7 +138,7 @@ width: 100%;
 height: 5px;
 bottom: 0.5em;
 left: 0;
-background-color: var(--cream);
+background-color: var(--red);
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.5s ease-in-out;
@@ -146,7 +151,7 @@ width: 100%;
 height: 5px;
 bottom: 0.5em;
 left: 0;
-background-color: var(--cream);
+background-color: var(--red);
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.5s ease-in-out;
@@ -159,7 +164,7 @@ width: 100%;
 height: 5px;
 bottom: 0.5em;
 left: 0;
-background-color: var(--cream);
+background-color: var(--red);
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.5s ease-in-out;
@@ -172,7 +177,7 @@ width: 100%;
 height: 5px;
 bottom: 0.5em;
 left: 0;
-background-color: var(--cream);
+background-color: var(--red);
 visibility: hidden;
 transform: scaleX(0);
 transition: all 0.5s ease-in-out;
@@ -181,51 +186,51 @@ transition: all 0.5s ease-in-out;
 .nav-item-home:hover::before {
 visibility: visible;
 transform: scaleX(1);
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 
 .nav-item-about:hover::before {
 visibility: visible;
 transform: scaleX(1);
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 
 .nav-item-resume:hover::before {
 visibility: visible;
 transform: scaleX(1);
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 
 .nav-item-projects:hover::before {
 visibility: visible;
 transform: scaleX(1);
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 
 .nav-item-blogs:hover::before {
 visibility: visible;
 transform: scaleX(1);
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 
 .nav-item-contact:hover::before {
 visibility: visible;
 transform: scaleX(1);
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 .nav-links:hover {
-color: var(--cream);
+color: var(--red);
 transition: all 0.5s ease-out;
 }
 
 .fa-bars {
-color: var(--cream);
+color: var(--red);
 }
 
 .nav-links-mobile {
@@ -294,7 +299,7 @@ display: none;
 }
 
 .nav-links {
-    color: var(--cream);
+    color: var(--red);
     display: table;
     height: 50%;
     margin-left: auto;
@@ -306,7 +311,7 @@ display: none;
 }
 
 .nav-links:hover {
-    background-color: var(--cream);
+    background-color: var(--red);
     color: var(--lightBlue);
     border-radius: 0;
 }

@@ -1,14 +1,18 @@
 :root {
     --cream: #F8F0DF;
-    --lightBlue: #7bc6f5;
+    --lightBlue: #55ffff;
     --black: #000000;
     --grey: #9D9D9D;
+    --darkblue: #3d7791;
+    --gold: #decd82;
+    --red: #f40305;
 }
 
 .projects-title {
     text-align: center;
     font-size: 6rem;
     font-family: 'KoHo';
+    text-shadow:   2px -3px 2px var(--lightblue);
 }
 
 .projects-container {
@@ -38,7 +42,7 @@
 
 .projects-card-title {
     font-size: 3.5em;
-    color: var(--grey);
+    color: var(--darkblue);
     font-family: 'KoHo';
     text-shadow: 2px 2px black;
     padding-bottom: 4.2em;
@@ -47,15 +51,19 @@
 .projects-card-description {
     font-family: 'KoHo';
     font-size: 1.8em;
-    padding: 10px
+    padding: 10px;
+    text-shadow: 1px 1px white;
 }
 
 .projects-card-button {
     width: 150px;
     height: 50px;
-    background-color: var(--cream);
+    background-color: var(--lightblue);
     border-radius: 5px;
     cursor: pointer;
+    color: var(--red);
+    font-size: 1em;
+    font-family: 'KoHo';
 }
 
 .projects-card {
@@ -63,8 +71,8 @@
     background-size: 140%;
     border: 6px solid var(--black);
     border-radius: 10px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
-    color: var(--lightBlue);
+    box-shadow: 0px 10px 10px 8px var(--darkblue);
+    color: var(--darkblue);
     height: 600px;
     left: 0;
     margin: 0 auto;
@@ -78,13 +86,26 @@
     width: 100%;
 }
 
+.projects-card:hover {
+    transform: scale(1.1);
+}
+.projects-card-two:hover {
+    transform: scale(1.1);
+}
+.projects-card-three:hover {
+    transform: scale(1.1);
+}
+.projects-card-four:hover {
+    transform: scale(1.1);
+}
+
 .projects-card-two {
     background: url('../../Images/cryptocurrent.png') no-repeat center;
-    background-size: 125%;
+    background-size: 135%;
     border: 6px solid var(--black);
     border-radius: 10px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
-    color: var(--lightBlue);
+    box-shadow: 0px 10px 10px 8px var(--darkblue);
+    color: var(--darkblue);
     height: 600px;
     left: 0;
     margin: 0 auto;
@@ -103,8 +124,8 @@
     background-size: 160%;
     border: 6px solid var(--black);
     border-radius: 10px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
-    color: var(--lightBlue);
+    box-shadow: 0px 10px 10px 8px var(--darkblue);
+    color: var(--darkblue);
     height: 600px;
     left: 0;
     margin: 0 auto;
@@ -120,11 +141,11 @@
 
 .projects-card-four {
     background: url('../../Images/justflingit.png') no-repeat center;
-    background-size: 125%;
+    background-size: 120%;
     border: 6px solid var(--black);
     border-radius: 10px;
-    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
-    color: var(--lightBlue);
+    box-shadow: 0px 10px 10px 8px var(--darkblue);
+    color: var(--darkblue);
     height: 600px;
     left: 0;
     margin: 0 auto;
