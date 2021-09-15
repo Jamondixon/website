@@ -38,13 +38,40 @@
     border-top: 6px solid var(--black);
 }
 
+.card-title {
+    font-size: 2.5em;
+    font-family: 'KoHo';
+    opacity: 1;
+    padding-bottom: 4em;
+    text-shadow:   2px -2px 2px var(--lightblue);
+}
+
+.card-date {
+    font-size: 1.8em;
+    font-family: 'Acme';
+    color: white;
+    padding-top: 2.0em;
+    font-weight: 900;
+    text-shadow:  8px solid var(--black);
+}
+
+.card-button {
+    width: 120px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--black);
+    font-size: 1em;
+    font-family: 'KoHo';
+}
+
 .card {
     background: url('../../Images/cssexy.png') no-repeat center;
     background-size: 200%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 20px 20px 0px var(--darkblue);
-    color: var(--lightBlue);
     height: 500px;
     left: 0;
     margin: 0 auto;
@@ -56,49 +83,50 @@
     top: 10%;
     transition: all 0.4s;
     width: 100%;
+    opacity: .9;
 }
 
 .card:hover {
     transform: scale(1.2);
+    opacity: 1;
 }
 
 .two {
     background: url('../../Images/odetojsx.png') no-repeat center;
     background-size: 140%;
-    
 }
 
 .three {
-background: url('../../Images/hooks.png') no-repeat center;
-background-size: 220%;
+    background: url('../../Images/hooks.png') no-repeat center;
+    background-size: 220%;
 }
 
 .four {
-background: url('../../Images/sdlc.jpeg') no-repeat center;
-background-size: 165%;
+    background: url('../../Images/sdlc.jpeg') no-repeat center;
+    background-size: 165%;
 }
 
 .five {
-background: url('../../Images/hooks.png') no-repeat center;
-background-size: 220%;
+    background: url('../../Images/hooks.png') no-repeat center;
+    background-size: 220%;
 }
 
 .six {
-background: url('../../Images/node2.jpeg') no-repeat center;
-background-size: 180%;
+    background: url('../../Images/node2.jpeg') no-repeat center;
+    background-size: 180%;
 }
 
 .seven {
-background: url('../../Images/semantic.jpeg') no-repeat center;
-background-size: 100%;
+    background: url('../../Images/semantic.jpeg') no-repeat center;
+    background-size: 100%;
 }
 
 .eight {
-background: url('../../Images/deployment.png') no-repeat center;
-background-size: 120%;
+    background: url('../../Images/deployment.png') no-repeat center;
+    background-size: 120%;
 }
 
 .nine {
-background: url('../../Images/deployment2.jpeg') no-repeat center;
-background-size: 220%;
+    background: url('../../Images/deployment2.jpeg') no-repeat center;
+    background-size: 220%;
 }

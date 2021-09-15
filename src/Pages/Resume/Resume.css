@@ -19,6 +19,7 @@
 .resume-title-container {
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
+    border-bottom: 6px  solid var(--black);
     
 }
 
@@ -33,7 +34,7 @@
 
 .pdf-container {
     height: 30em;
-    margin: 1.5rem
+    margin: 1.5rem;
 }
 
 .pdf {

@@ -19,7 +19,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>Click to View</button>
+                                >Click to View</button>
                             </a>
                             <h3 className="projects-card-description">SPA designed to showcase, rate, and point people in the direction of Denver’s best queso</h3>
                         </div>

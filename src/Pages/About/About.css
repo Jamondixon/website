@@ -8,13 +8,6 @@
     --red: #f40305;
 }
 
-.about-title {
-    text-align: center;
-    font-size: 6rem;
-    font-family: 'KoHo';
-    text-shadow:   2px -3px 2px var(--lightblue);
-}
-
 .about-container {
     display: flex;
     flex-direction: column;
@@ -22,9 +15,18 @@
     background-position: cover;
 }
 
+.about-title {
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'KoHo';
+    text-shadow:   2px -3px 2px var(--lightblue);
+}
+
+
 .about-title-container {
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
+    border-bottom: 6px  solid var(--black);
     
 }
 
