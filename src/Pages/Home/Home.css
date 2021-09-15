@@ -12,7 +12,8 @@
     text-align: center;
     font-size: 6rem;
     font-family: 'KoHo';
-    text-shadow:   2px -3px 2px var(--lightblue);
+    /* text-shadow:   2px -3px 2px var(--lightblue); */
+    
 }
 
 .home-container {

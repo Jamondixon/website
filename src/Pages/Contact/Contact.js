@@ -13,18 +13,12 @@ const Contact = () => {
                 <div className="contact-title-container">
                     <h1 className="contact-title">CONTACT</h1>
                 </div>
-                <div className="contact-subtitle-container">
-                    <h2 className="contact-subtitle">Get in touch with me!</h2>
-                </div>
-                <div className="conctact-details-container">
-                    <div className="contact-email-container">
+                <div className="contact-details-container">
+                        {/* <h2 className="contact-subtitle">Get in touch with me!</h2> */}
                         <h3 className="contact-email-title">EMAIL</h3>
                         <h4 className="contact-email-value">Jamonadixon@gmail.com</h4>
-                    </div>
-                    <div className="contact-phone-container">
                         <h3 className="contact-phone-title">PHONE</h3>
                         <h4 className="contact-phone-value">806-620-6896</h4>
-                    </div>
                     <div className="contact-icons-container">
                         <div className="contact-icons-inner-container">
                             <a href="https://www.linkedin.com/in/jamondixon/" 

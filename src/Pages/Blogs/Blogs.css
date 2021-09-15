@@ -16,9 +16,18 @@
 
 .blogs-title {
     text-align: center;
-    font-size: 6rem;
-    font-family: 'KoHo';
-    text-shadow:   2px -3px 2px var(--lightblue);
+    font-size: 7rem;
+    font-family: 'Sprite Graffiti';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 }
 
 .blogs-container {
@@ -39,20 +48,30 @@
 }
 
 .card-title {
-    font-size: 2.5em;
-    font-family: 'KoHo';
-    opacity: 1;
-    padding-bottom: 4em;
-    text-shadow:   2px -2px 2px var(--lightblue);
+    font-size: 5vh;
+    padding-bottom: 4vh;
+    /* font-family: 'KoHo';
+    text-shadow:   2px -2px 2px var(--lightblue); */
+    font-family: 'Sprite Graffiti';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 }
 
 .card-date {
     font-size: 1.8em;
     font-family: 'Acme';
+    text-shadow: -2px 2px 1px  var(--red);
     color: white;
     padding-top: 2.0em;
-    font-weight: 900;
-    text-shadow:  8px solid var(--black);
+    font-weight: 700;
 }
 
 .card-button {
@@ -72,7 +91,7 @@
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 20px 20px 0px var(--darkblue);
-    height: 500px;
+    height: 400px;
     left: 0;
     margin: 0 auto;
     max-width: 425px;
@@ -82,7 +101,7 @@
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 100%;
+    width: 80%;
     opacity: .9;
 }
 

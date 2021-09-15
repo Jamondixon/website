@@ -8,3 +8,13 @@
     src: local('Koho'),
         url('./Koho.ttf') format('ttf'),
 };
+@font-face {
+    font-family: 'Yellowtail';
+    src: local('Yellowtail'),
+        url('./Yellowtail.ttf') format('ttf'),
+};
+@font-face {
+    font-family: 'Sprite Graffiti';
+    src: local('Sprite Graffiti'),
+        url('./Sprite Graffiti.ttf') format('ttf'),
+};

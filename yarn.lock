@@ -1187,6 +1187,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/koho/-/koho-4.5.0.tgz#d366a4aceb179013d7b76e2c6d11eb7327b3c0b2"
   integrity sha512-+jPeFVqvr/fG33a01kX2hvju4fvU8oztkiwtuno7P3UJuZVNzg41cK6M5ewHBqa/vn1Huol4YSQVHtF4a0yCyg==
 
+"@fontsource/yellowtail@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/yellowtail/-/yellowtail-4.5.0.tgz#d344822128a81ae632b1331ac2aecb2932cb52ed"
+  integrity sha512-H4Y5KAepHVy/JfxCEI10+u0Nyo8SMOMOC9on3CgSve8PmWuSFnx0p628UIuXtZ9wgRMTPHmE/25Xx+Fb3+MMJg==
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.npmjs.org/@hapi/address/-/address-2.1.4.tgz"

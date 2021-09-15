@@ -10,9 +10,18 @@
 
 .projects-title {
     text-align: center;
-    font-size: 6rem;
-    font-family: 'KoHo';
-    text-shadow:   2px -3px 2px var(--lightblue);
+    font-size: 7rem;
+    font-family: 'Sprite Graffiti';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 }
 
 .projects-container {
@@ -41,17 +50,25 @@
 }
 
 .projects-card-title {
-    font-size: 3.5em;
-    color: var(--darkblue);
-    font-family: 'KoHo';
-    text-shadow: 2px 2px white;
-    padding-bottom: 4.2em;
+    font-size: 6vh;
+    font-family: 'Sprite Graffiti';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
+    padding-bottom: 2.5em;
 }
 
 .projects-card-description {
     font-family: 'KoHo';
-    font-size: 1.8em;
-    padding: 10px;
+    font-size: 1.6em;
+    padding: .2em;
     text-shadow: 1px 1px white;
 }
 
@@ -68,22 +85,22 @@
 
 .projects-card {
     background: url('../../Images/303quesofinder.png') no-repeat center;
-    background-size: 140%;
+    background-size: 160%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     color: var(--darkblue);
-    height: 600px;
+    height: 500px;
     left: 0;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 600px;
     overflow: hidden;
     position: relative;
     right: 0;
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 100%;
+    width: 90%;
 }
 
 .projects-card:hover {
@@ -101,60 +118,60 @@
 
 .projects-card-two {
     background: url('../../Images/cryptocurrent.png') no-repeat center;
-    background-size: 135%;
+    background-size: 150%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     color: var(--darkblue);
-    height: 600px;
+    height: 500px;
     left: 0;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 600px;
     overflow: hidden;
     position: relative;
     right: 0;
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 100%;
+    width: 90%;
 }
 
 .projects-card-three {
     background: url('../../Images/hooks.png') no-repeat center;
-    background-size: 160%;
+    background-size: 195%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     color: var(--darkblue);
-    height: 600px;
+    height: 500px;
     left: 0;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 600px;
     overflow: hidden;
     position: relative;
     right: 0;
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 100%;
+    width: 90%;
 }
 
 .projects-card-four {
     background: url('../../Images/justflingit.png') no-repeat center;
-    background-size: 120%;
+    background-size: 140%;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     color: var(--darkblue);
-    height: 600px;
+    height: 500px;
     left: 0;
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 600px;
     overflow: hidden;
     position: relative;
     right: 0;
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 100%;
+    width: 90%;
 }

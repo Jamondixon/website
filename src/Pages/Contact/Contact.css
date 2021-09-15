@@ -10,9 +10,18 @@
 
 .contact-title {
     text-align: center;
-    font-size: 6rem;
-    font-family: 'KoHo';
-    text-shadow:   2px -3px 2px var(--lightblue);
+    font-size: 7rem;
+    font-family: 'Sprite Graffiti';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 }
 
 
@@ -20,7 +29,6 @@
     background-position: cover;
     display: flex;
     flex-direction: column;
-    padding-bottom: 4em;
     background: url('../../Images/beams.jpg') no-repeat center;
 }
 
@@ -28,3 +36,60 @@
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
 }
+
+.contact-details-container {
+    /* height: 800px;
+    width: 800px; */
+    display: flex;
+    flex-direction: column;
+    margin: 8em;
+    height: 70%;
+    max-width: 100%;
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    background-size: contain;
+    min-width: 800px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+h3 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Sprite Graffiti';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
+    padding-top: .6em;
+    margin: 0;
+}
+h4 {
+    text-align: center;
+    font-family: 'Yellowtail';
+    color: black;
+    font-size: 3em;
+}
+
+.contact-icons-inner-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contact-social-icon {
+    height: 4em;
+    width: 4em;
+    padding: 2em;
+}
+

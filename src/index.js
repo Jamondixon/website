@@ -5,6 +5,7 @@ import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom'
 import '@fontsource/acme';
 import '@fontsource/koho';
+import "@fontsource/yellowtail"
 
 ReactDOM.render(
   <React.StrictMode>
