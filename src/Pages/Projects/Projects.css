@@ -10,7 +10,7 @@
 
 .projects-title {
     text-align: center;
-    font-size: 7rem;
+    font-size: 6rem;
     font-family: 'Sprite Graffiti';
     color: var(--lightblue);
     text-shadow:
@@ -51,23 +51,14 @@
 
 .projects-card-title {
     font-size: 6vh;
-    font-family: 'Sprite Graffiti';
-    color: var(--lightblue);
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #f40305,
-    0 0 42px #f40305,
-    0 0 82px #f40305,
-    0 0 92px #f40305,
-    0 0 102px #f40305,
-    0 0 151px #f40305;
-    padding-bottom: 2.5em;
+    font-family: 'KoHo';
+    text-shadow:   2px -2px 2px var(--lightblue);
+    padding-bottom: 10vh;
 }
 
 .projects-card-description {
     font-family: 'KoHo';
-    font-size: 1.6em;
+    font-size: 4vh;
     padding: .2em;
     text-shadow: 1px 1px white;
 }
@@ -85,11 +76,11 @@
 
 .projects-card {
     background: url('../../Images/303quesofinder.png') no-repeat center;
-    background-size: 160%;
+    background-size: cover;
+    background-position: fixed;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    color: var(--darkblue);
     height: 500px;
     left: 0;
     margin: 0 auto;
@@ -118,11 +109,11 @@
 
 .projects-card-two {
     background: url('../../Images/cryptocurrent.png') no-repeat center;
-    background-size: 150%;
+    background-size: cover;
+    background-position: fixed;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    color: var(--darkblue);
     height: 500px;
     left: 0;
     margin: 0 auto;
@@ -138,11 +129,11 @@
 
 .projects-card-three {
     background: url('../../Images/hooks.png') no-repeat center;
-    background-size: 195%;
+    background-size: cover;
+    background-position: fixed;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    color: var(--darkblue);
     height: 500px;
     left: 0;
     margin: 0 auto;
@@ -158,11 +149,11 @@
 
 .projects-card-four {
     background: url('../../Images/justflingit.png') no-repeat center;
-    background-size: 140%;
+    background-size: cover;
+    background-position: fixed;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    color: var(--darkblue);
     height: 500px;
     left: 0;
     margin: 0 auto;

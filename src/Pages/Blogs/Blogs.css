@@ -50,19 +50,9 @@
 .card-title {
     font-size: 5vh;
     padding-bottom: 4vh;
-    /* font-family: 'KoHo';
-    text-shadow:   2px -2px 2px var(--lightblue); */
-    font-family: 'Sprite Graffiti';
-    color: var(--lightblue);
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #f40305,
-    0 0 42px #f40305,
-    0 0 82px #f40305,
-    0 0 92px #f40305,
-    0 0 102px #f40305,
-    0 0 151px #f40305;
+    font-family: 'KoHo';
+    text-shadow:   2px -2px 2px var(--lightblue);
+    
 }
 
 .card-date {
@@ -86,8 +76,9 @@
 }
 
 .card {
-    background: url('../../Images/cssexy.png') no-repeat center;
-    background-size: 200%;
+    background: url('../../Images/cssexy.png')  no-repeat center;
+    background-size: cover;
+    background-position: fixed;
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 20px 20px 0px var(--darkblue);
@@ -112,40 +103,48 @@
 
 .two {
     background: url('../../Images/odetojsx.png') no-repeat center;
-    background-size: 140%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .three {
     background: url('../../Images/hooks.png') no-repeat center;
-    background-size: 220%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .four {
     background: url('../../Images/sdlc.jpeg') no-repeat center;
-    background-size: 165%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .five {
     background: url('../../Images/hooks.png') no-repeat center;
-    background-size: 220%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .six {
     background: url('../../Images/node2.jpeg') no-repeat center;
-    background-size: 180%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .seven {
     background: url('../../Images/semantic.jpeg') no-repeat center;
-    background-size: 100%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .eight {
     background: url('../../Images/deployment.png') no-repeat center;
-    background-size: 120%;
+    background-size: cover;
+    background-position: fixed;
 }
 
 .nine {
     background: url('../../Images/deployment2.jpeg') no-repeat center;
-    background-size: 220%;
+    background-size: cover;
+    background-position: fixed;
 }
