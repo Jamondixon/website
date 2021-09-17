@@ -35,6 +35,7 @@
 .contact-title-container {
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
+    border-bottom: 6px solid black;
 }
 
 .contact-details-container {
@@ -48,16 +49,13 @@
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: contain;
     min-width: 800px;
+    
 }
 
-h2 {
-    text-align: center;
-    padding-bottom: 2.5em;
-}
 
 h3 {
     text-align: center;
-    font-size: 3em;
+    font-size: 6vh;
     font-family: 'Sprite Graffiti';
     color: var(--lightblue);
     text-shadow:
@@ -74,9 +72,10 @@ h3 {
 }
 h4 {
     text-align: center;
-    font-family: 'Yellowtail';
-    color: black;
-    font-size: 3em;
+    font-family: "Acme";
+    font-size: 8vh;
+    font-weight: 200;
+    text-shadow: 2px 0px 2px white;
 }
 
 .contact-icons-inner-container {

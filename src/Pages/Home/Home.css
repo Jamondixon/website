@@ -19,12 +19,38 @@
 .home-container {
     display: flex;
     flex-direction: column;
-    background: url('../../Images/beams.jpg') no-repeat center;
-    background-position: cover;
+    /* background: url('../../Images/beams.jpg') no-repeat center;
+    background-size: 100%; */
 }
 
 .home-title-container {
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
+    
+}
+
+.home-graphic-container {
+    display: block;
+    
+}
+
+.home-graphic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.home-profession-container {
+    display: block;
+    text-align: center;
+}
+
+.home-profession {
+    font-family: "Acme";
+    font-size: 8vh;
+    color: white;
+    font-weight: 200;
+    text-shadow: 2px 0px 2px black;
     
 }
