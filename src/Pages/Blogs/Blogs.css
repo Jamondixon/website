@@ -56,12 +56,15 @@
 }
 
 .card-date {
-    font-size: 1.8em;
+    font-size: 1.3em;
     font-family: 'Acme';
     text-shadow: -2px 2px 1px  var(--red);
     color: white;
     padding-top: 2.0em;
     font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
 }
 
 .card-button {

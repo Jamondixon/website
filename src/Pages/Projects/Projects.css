@@ -60,7 +60,8 @@
     font-family: 'KoHo';
     font-size: 4vh;
     padding: .2em;
-    text-shadow: 1px 1px white;
+    color: white;
+    text-shadow: 1px 1px var(--red);
 }
 
 .projects-card-button {
