@@ -10,8 +10,8 @@
 
 .contact-title {
     text-align: center;
-    font-size: 7rem;
-    font-family: 'Sprite Graffiti';
+    font-size: 10vh;
+    font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
     0 0 7px #fff,
@@ -41,14 +41,13 @@
 .contact-details-container {
     /* height: 800px;
     width: 800px; */
-    display: flex;
-    flex-direction: column;
+    
     margin: 8em;
     height: 70%;
     max-width: 100%;
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: contain;
-    min-width: 800px;
+    min-width: 400px;
     
 }
 
@@ -56,7 +55,7 @@
 h3 {
     text-align: center;
     font-size: 6vh;
-    font-family: 'Sprite Graffiti';
+    font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
     0 0 7px #fff,
@@ -86,8 +85,8 @@ h4 {
 }
 
 .contact-social-icon {
-    height: 4em;
-    width: 4em;
+    height: 12vh;
+    width: 12vh;
     padding: 2em;
 }
 

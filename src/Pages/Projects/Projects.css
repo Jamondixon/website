@@ -10,8 +10,8 @@
 
 .projects-title {
     text-align: center;
-    font-size: 7rem;
-    font-family: 'Sprite Graffiti';
+    font-size: 10vh;
+    font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
     0 0 7px #fff,

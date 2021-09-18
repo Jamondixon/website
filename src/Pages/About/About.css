@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap');
 :root {
     --cream: #F8F0DF;
     --lightblue: #55ffff;
@@ -17,8 +18,8 @@
 
 .about-title {
     text-align: center;
-    font-size: 7rem;
-    font-family: 'Sprite Graffiti';
+    font-size: 10vh;
+    font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
     0 0 7px #fff,
@@ -39,7 +40,43 @@
     
 }
 
-img {
+.about-subtitle {
+    font-size: 3rem;
+    font-family: 'Acme';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
+}
+
+.profile-image {
     max-height: 400px;
     max-width: 400px;
+    border-radius: 50%;
+}
+
+.queso-image {
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.skill-title {
+    font-size: 3rem;
+    font-family: 'Acme';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 }

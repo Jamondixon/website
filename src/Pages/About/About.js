@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../../Components/Nav/NavBar';
 import './About.css';
 import Profile from '../../Images/headshotcropped1.png'
+import Queso from '../../Images/prettyjamon1.jpg'
 
 const About = () => {
     return (
@@ -11,8 +12,27 @@ const About = () => {
                 <div className="about-title-container">
                     <h1 className="about-title">ABOUT</h1>
                 </div>
-                <div>
-                    <img src={Profile} classname="profile-image" alt="Jamon headshot"/>
+                <div className="profile-image-container">
+                    <img src={Profile} className="profile-image" alt="Jamon headshot"/>
+                </div>
+                <div className="padding-div">
+                    <div className="skill-container">
+                        <div className="skill-heading-container">
+                            <h2 className="skill-title">SKILLS</h2>
+                            <p className="skill-paragraph">
+                                <ul className="skill-list">
+                                    <li className='skill-list-item'>HTML</li>
+                                    <li className='skill-list-item'>CSS</li>
+                                    <li className='skill-list-item'>Ruby</li>
+                                    <li className='skill-list-item'>Ruby on Rails</li>
+                                    <li className='skill-list-item'>Javascript</li>
+                                    <li className='skill-list-item'>React</li>
+                                    <li className='skill-list-item'>React Native</li>
+                                    <li className='skill-list-item'>Git</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 <div className="body-container">
                     <div className='text-container'>
@@ -25,28 +45,13 @@ const About = () => {
                         <div className='personal-paragraph-container'>
                             <h2 className='about-subtitle'>PERSONAL LIFE</h2>
                             <p className='about-body'>
-                                I'm an avid sports fan and love to go see some live music with my fiance, Ellie. Lover of good food and great movies. I'm a regular at music festivals all over the United States and you can always find me at the disc golf course in my free time. When I am not out and about I enjoy curling up on the couch with my fluffy, black, rescue cat named Artemis. 
+                                I'm an avid sports fan and love to go see some live music with my fiance, Ellie. Lover of good food and drink. I'm a regular at music festivals all over the United States and you can always find me at the disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. 
                             </p>
                         </div>
-                        <div className="padding-div">
-                            <div className="skill-container">
-                                <div className="skill-heading-container">
-                                    <h2 className="skill-title">SKILLS</h2>
-                                    <p className="skill-paragraph">
-                                        <ul className="skill-list">
-                                            <li className='skill-list-item'>HTML</li>
-                                            <li className='skill-list-item'>CSS</li>
-                                            <li className='skill-list-item'>Ruby</li>
-                                            <li className='skill-list-item'>Rails</li>
-                                            <li className='skill-list-item'>Javascript</li>
-                                            <li className='skill-list-item'>React</li>
-                                            <li className='skill-list-item'>React Native</li>
-                                            <li className='skill-list-item'>Git</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </div>
+                        <div className="queso-image-container">
+                            <img className="queso-image" src={Queso} alt="queso scene" />
                         </div>
+                        
                     </div>
                 </div>
             </div>

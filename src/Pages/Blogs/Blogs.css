@@ -16,8 +16,8 @@
 
 .blogs-title {
     text-align: center;
-    font-size: 7rem;
-    font-family: 'Sprite Graffiti';
+    font-size: 10vh;
+    font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
     0 0 7px #fff,
@@ -68,14 +68,16 @@
 }
 
 .card-button {
-    width: 120px;
+    width: 100px;
     height: 50px;
-    background-color: whitesmoke;
-    border-radius: 5px;
-    cursor: pointer;
-    color: var(--black);
-    font-size: 1em;
+    background-color: var(--red);
+    border-radius: 10px;
+    color: var(--lightBlue);
+    font-size: 2vh;
     font-family: 'KoHo';
+    font-weight: 800;
+    border-width: medium;
+    border-color: var(--black);
 }
 
 .card {

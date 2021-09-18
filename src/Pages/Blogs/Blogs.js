@@ -19,7 +19,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">May 9th, 2021</h3>
                         </div>
@@ -33,7 +33,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">July 19th, 2021</h3>
                         </div>
@@ -47,7 +47,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">July 26th, 2021</h3>
                         </div>
@@ -61,7 +61,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">August 2nd, 2021</h3>
                         </div>
@@ -75,7 +75,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">August 9th, 2021</h3>
                         </div>
@@ -89,7 +89,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">August 16th, 2021</h3>
                         </div>
@@ -103,7 +103,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">August 18th, 2021</h3>
                         </div>
@@ -117,7 +117,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">August 29th, 2021</h3>
                         </div>
@@ -131,7 +131,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>READ IT!</button>
+                                buttonStyle='primary--btn'>LINK</button>
                             </a>
                             <h3 className="card-date">September 1st, 2021</h3>
                         </div>
