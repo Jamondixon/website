@@ -72,10 +72,9 @@ h3 {
 }
 h4 {
     text-align: center;
-    font-family: "Acme";
-    font-size: 8vh;
-    font-weight: 200;
-    text-shadow: 2px 0px 2px white;
+    font-size: 6vh;
+    font-family: 'KoHo';
+    text-shadow:   2px -2px 2px var(--lightblue);
 }
 
 .contact-icons-inner-container {
