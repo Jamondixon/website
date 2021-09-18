@@ -3,6 +3,9 @@ import LinkedIn from "../../Images/linkedIn.png"
 import Github from "../../Images/github.png"
 import Facebook from "../../Images/facebook.png"
 import Medium from "../../Images/medium.png"
+import Email from "../../Images/cropped-email.png"
+import Phone from "../../Images/cropped-phone.png"
+
 import './Contact.css'
 
 const Contact = () => {
@@ -16,9 +19,11 @@ const Contact = () => {
                 <div className="contact-details-container">
                         {/* <h2 className="contact-subtitle">Get in touch with me!</h2> */}
                         <h3 className="contact-email-title">EMAIL</h3>
-                        <h4 className="contact-email-value">Jamonadixon@gmail.com</h4>
+                        {/* <h4 className="contact-email-value">Jamonadixon@gmail.com</h4> */}
+                        <img className="email-value" src={Email} alt="email" />
                         <h3 className="contact-phone-title">PHONE</h3>
-                        <h4 className="contact-phone-value">806-620-6896</h4>
+                        {/* <h4 className="contact-phone-value">806-620-6896</h4> */}
+                        <img className="phone-value" src={Phone} alt="phone" />
                     <div className="contact-icons-container">
                         <div className="contact-icons-inner-container">
                             <a href="https://www.linkedin.com/in/jamondixon/" 

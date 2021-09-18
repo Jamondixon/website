@@ -1,5 +1,5 @@
 import Nav from '../../Components/Nav/NavBar'
-import Doc from '../../Images/docpdf.pdf'
+import Doc from '../../Images/Resume.pdf'
 import Medium from "../../Images/medium.png"
 import './Resume.css'
 
