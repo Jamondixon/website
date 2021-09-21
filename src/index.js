@@ -6,6 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import '@fontsource/acme';
 import '@fontsource/koho';
 import "@fontsource/yellowtail"
+import "animate.css"
 
 ReactDOM.render(
   <React.StrictMode>

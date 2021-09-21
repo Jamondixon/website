@@ -31,6 +31,8 @@
     0 0 92px #f40305,
     0 0 102px #f40305,
     0 0 151px #f40305;
+    animation: lightSpeedInLeft; 
+    animation-duration: 2s;
 }
 
 
@@ -76,12 +78,12 @@
     max-height: 600px;
     max-width: 600px;
     float: left;
-    margin-right: 3vw;
+    margin-right: 5vw;
     margin-top: 10em;
     border:  solid var(--black);
     border-width: 6px;
     border-radius: 10px;
-    
+    cursor: pointer;
 }
 
 .skill-container {

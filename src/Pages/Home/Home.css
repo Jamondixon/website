@@ -1,3 +1,5 @@
+
+
 :root {
     --cream: #F8F0DF;
     --lightBlue: #55ffff;
@@ -40,8 +42,11 @@
     margin-right: auto;
     width: 45%;
     padding-bottom: 2em;
-
+    animation: backInUp; 
+    animation-duration: 2s;
+    
 }
+
 
 .home-profession-container {
     display: block;

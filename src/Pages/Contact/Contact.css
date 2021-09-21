@@ -22,6 +22,8 @@
     0 0 92px #f40305,
     0 0 102px #f40305,
     0 0 151px #f40305;
+    animation: lightSpeedInLeft; 
+    animation-duration: 2s;
 }
 
 
