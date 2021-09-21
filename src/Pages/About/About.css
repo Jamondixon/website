@@ -57,28 +57,39 @@
 }
 
 .profile-image {
-    height: 60vh;
-    width: 60vw;
-    border-radius: 50%;
-    padding: 6em;
-    margin-left: 2em;
-
-    
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 70%;
+    min-width: 0%;
+    padding: 1em;
+    background-color: white;
+    margin-left: 6em;
+    margin-top: 10em;
+    margin-bottom: -50px;
+    overflow: hidden;
+    border:  solid var(--black);
+    border-width: 6px;
+    border-radius: 10px;
 }
 
 .queso-image {
     max-height: 600px;
     max-width: 600px;
-    float: right;
-    padding-right: 3vw;
+    float: left;
+    margin-right: 3vw;
+    margin-top: 12em;
+    border:  solid var(--black);
+    border-width: 6px;
+    border-radius: 10px;
 }
 
 .skill-container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     float: right;
     margin-right: 6vw;
+    margin-top: 3em;
     position: relative;
     bottom: 70vh;
     width: 40%;
@@ -92,10 +103,16 @@
 
 .skill-title {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 4vw;
-    width: 120%;
+    position: relative;
+    left: 45%;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.skill-list {
+    margin: 2em;
+
 }
 
 .skill-list-item {
@@ -113,9 +130,26 @@ text-shadow:  2px  2px var(--red);
     height: 1200px;
     min-width: 600px;
     width: 90%;
-    background-color: white;
     position: relative;
     bottom: 50vh;
     margin: auto;
+}
 
+.about-body {
+    font-family: "Acme";
+    font-size: 4vh;
+    padding: 1em
+}
+
+.professional-title {
+    float: left;
+    
+    margin: auto;
+    padding-right: 2em;;
+}
+
+.personal-title {
+    position: relative;
+    left: 50px;
+    top: 50px;
 }
