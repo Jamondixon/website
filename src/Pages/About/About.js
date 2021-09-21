@@ -2,7 +2,7 @@ import React from 'react';
 import Nav from '../../Components/Nav/NavBar';
 import './About.css';
 import Profile from '../../Images/headshotcropped1.png'
-import Queso from '../../Images/prettyjamon1.jpg'
+import Queso from '../../Images/pretty2jamon1.jpg'
 
 const About = () => {
     return (
@@ -45,7 +45,7 @@ const About = () => {
                         <div className='personal-paragraph-container'>
                             <h2 className='about-subtitle'>PERSONAL LIFE</h2>
                             <p className='about-body'>
-                                I'm an avid sports fan and love to go see some live music with my fiance, Ellie. Lover of good food and drink. I'm a regular at music festivals all over the United States and you can always find me at the disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. 
+                                I'm an avid sports fan and love to go see some live music with my fiancé, Ellie. Lover of good food and drink. I'm a regular at music festivals all over the United States and you can always find me at the disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. 
                             </p>
                         </div>
                         <div className="queso-image-container">
