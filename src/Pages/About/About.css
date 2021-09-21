@@ -81,6 +81,7 @@
     border:  solid var(--black);
     border-width: 6px;
     border-radius: 10px;
+    
 }
 
 .skill-container {
@@ -162,4 +163,5 @@ text-shadow:  2px  2px var(--red);
     position: relative;
     left: 50px;
     top: 50px;
+    margin-bottom: 2em;
 }
