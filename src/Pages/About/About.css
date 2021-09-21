@@ -14,6 +14,7 @@
     flex-direction: column;
     background: url('../../Images/beams.jpg') no-repeat center;
     background-position: cover;
+    
 }
 
 .about-title {
@@ -41,42 +42,80 @@
 }
 
 .about-subtitle {
+    display: flex;
+    flex-direction: column;
     font-size: 3rem;
     font-family: 'Acme';
     color: var(--lightblue);
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #f40305,
-    0 0 42px #f40305,
-    0 0 82px #f40305,
-    0 0 92px #f40305,
-    0 0 102px #f40305,
-    0 0 151px #f40305;
+}
+
+.profile-image-container {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 600px;
 }
 
 .profile-image {
-    max-height: 400px;
-    max-width: 400px;
+    height: 60vh;
+    width: 60vw;
     border-radius: 50%;
+    padding: 6em;
+    margin-left: 2em;
+
+    
 }
 
 .queso-image {
     max-height: 600px;
     max-width: 600px;
+    float: right;
+    padding-right: 3vw;
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    float: right;
+    margin-right: 6vw;
+    position: relative;
+    bottom: 70vh;
+    width: 40%;
+    background: url('../../Images/bluebrick.jpg') no-repeat center;
+    min-width: 400px;
+    border-radius: 10px;
+    border: 50px solid var(--black);
+    border-width: 6px;
+    
 }
 
 .skill-title {
-    font-size: 3rem;
-    font-family: 'Acme';
-    color: var(--lightblue);
-    text-shadow:
-    0 0 7px #fff,
-    0 0 10px #fff,
-    0 0 21px #f40305,
-    0 0 42px #f40305,
-    0 0 82px #f40305,
-    0 0 92px #f40305,
-    0 0 102px #f40305,
-    0 0 151px #f40305;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4vw;
+    width: 120%;
+}
+
+.skill-list-item {
+font-family: "KoHo";
+font-size: 4vh;
+font-weight: 600;
+color:white;
+text-shadow:  2px  2px var(--red);
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1200px;
+    min-width: 600px;
+    width: 90%;
+    background-color: white;
+    position: relative;
+    bottom: 50vh;
+    margin: auto;
+
 }
