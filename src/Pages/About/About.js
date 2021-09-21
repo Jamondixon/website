@@ -18,24 +18,26 @@ const About = () => {
                 <div className="profile-image-container">
                     <img src={Profile} className="profile-image" alt="Jamon headshot"/>
                 </div>
-                <div className="skill-container">
-                    <div className="skill-heading-container">
-                        {/* <h2 className="skill-title">SKILLS</h2> */}
-                        <img src={Skills} className="skill-title" alt="skills" />
-                        <p className="skill-paragraph">
-                            <ul className="skill-list">
-                                <li className='skill-list-item'>HTML</li>
-                                <li className='skill-list-item'>CSS</li>
-                                <li className='skill-list-item'>Ruby</li>
-                                <li className='skill-list-item'>Ruby on Rails</li>
-                                <li className='skill-list-item'>Javascript</li>
-                                <li className='skill-list-item'>React</li>
-                                <li className='skill-list-item'>React Native</li>
-                                <li className='skill-list-item'>Heroku</li>
-                                <li className='skill-list-item'>Bootstrap</li>
-                                <li className='skill-list-item'>Git</li>
-                            </ul>
-                        </p>
+                <div className="padding-div">
+                    <div className="skill-container">
+                        <div className="skill-heading-container">
+                            {/* <h2 className="skill-title">SKILLS</h2> */}
+                            <img src={Skills} className="skill-title" alt="skills" />
+                            <p className="skill-paragraph">
+                                <ul className="skill-list">
+                                    <li className='skill-list-item'>HTML</li>
+                                    <li className='skill-list-item'>CSS</li>
+                                    <li className='skill-list-item'>Ruby</li>
+                                    <li className='skill-list-item'>Ruby on Rails</li>
+                                    <li className='skill-list-item'>Javascript</li>
+                                    <li className='skill-list-item'>React</li>
+                                    <li className='skill-list-item'>React Native</li>
+                                    <li className='skill-list-item'>Heroku</li>
+                                    <li className='skill-list-item'>Bootstrap</li>
+                                    <li className='skill-list-item'>Git</li>
+                                </ul>
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div className="body-container">
