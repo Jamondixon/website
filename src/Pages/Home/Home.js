@@ -3,6 +3,7 @@ import NavBar from '../../Components/Nav/NavBar';
 import './Home.css';
 import JamonDixon from '../../Images/Jtitle.png'
 
+
 const Home = () => {
     return (
         <div className="home-overall-container">

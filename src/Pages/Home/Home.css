@@ -1,5 +1,3 @@
-
-
 :root {
     --cream: #F8F0DF;
     --lightBlue: #55ffff;
@@ -33,7 +31,7 @@
 
 .home-graphic-container {
     display: block;
-    
+    margin-top: -6em;
 }
 
 .home-graphic {
@@ -54,10 +52,18 @@
 }
 
 .home-profession {
-    font-family: "Acme";
+    font-family: "Blinker";
     font-size: 8vh;
     color: white;
-    font-weight: 200;
-    text-shadow: 2px 0px 2px black;
+    font-weight: 800;
+    text-shadow: 3px 1px 3px var(--black);
+    animation: flip; 
+    animation-duration: 1s;
+    animation-delay: 2s;
+    
     
 }
+
+
+
+
