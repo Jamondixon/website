@@ -18,4 +18,9 @@
     src: local('Sprite Graffiti'),
         url('./Sprite Graffiti.ttf') format('ttf'),
 };
+@font-face {
+    font-family: 'Blinker';
+    src: local('Blinker'),
+        url('./Blinker.ttf') format('ttf'),
+};
 

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@fontsource/acme": "^4.5.0",
+    "@fontsource/blinker": "^4.5.0",
     "@fontsource/koho": "^4.5.0",
     "@fontsource/yellowtail": "^4.5.0",
     "@testing-library/jest-dom": "^5.11.4",

@@ -146,12 +146,14 @@ text-shadow:  2px  2px var(--red);
     position: relative;
     bottom: 50vh;
     margin: auto;
+    margin-bottom: 5em;
 }
 
 .about-body {
-    font-family: "Acme";
+    font-family: "Blinker";
     font-size: 4vh;
-    padding: 1em
+    padding: 1em;
+    line-height: 2;
 }
 
 .professional-title {

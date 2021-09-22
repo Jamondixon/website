@@ -46,7 +46,7 @@ const About = () => {
                             {/* <h2 className='about-subtitle'>PROFESSIONAL LIFE</h2> */}
                             <img src={Professional} className="professional-title" alt="professional" />
                             <p className='about-body'>
-                                Full-stack web developer with a curiosity of what makes things work and an aptitude for problem solving. Entered the world of coding in 2020 after a case of COVID-19 forced me to think about my aspirations for my future.  I wanted to foster my creative side and cultivate a sense of purpose. As a graduate of University Studies from Texas Tech University, I consider myself a jack of all trades. My experience ranges all over the map, from hospitality to lanscaping and most recently cannabis. I come to the tech industry with the heart of an entrepreneur and always hungry for the next challenge.   
+                                Former cannabis connoisseur turned full-stack developer with a curious mind and an aptitude for art. I Entered the world of coding in 2020 after a case of COVID-19 allowed me some time to reevaluate my aspirations for the future. I wanted to work towards growing my creative talents and cultivating a sense of purpose, rather than cannabis. As a graduate of Texas Tech University and Flatiron School, I come to the tech industry commited to being a lifelong learner and capable of conquering whatever life throws at me.
                             </p>
                         </div>
                         <div className="queso-image-container">
