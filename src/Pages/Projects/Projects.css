@@ -55,15 +55,21 @@
     font-size: 6vh;
     font-family: 'KoHo';
     text-shadow:   2px -2px 2px var(--lightblue);
-    padding-bottom: 10vh;
+    padding-bottom: 5vh;
 }
 
 .projects-card-description {
     font-family: 'KoHo';
-    font-size: 4vh;
+    font-size: 25px;
     padding: .2em;
     color: white;
     text-shadow: 1px 1px var(--red);
+}
+
+@media (max-width: 800px) {
+    .projects-card-description {
+        font-size: 20px;
+    }
 }
 
 .projects-card-button {
@@ -98,6 +104,8 @@
     transition: all 0.4s;
     width: 90%;
 }
+
+
 
 .projects-card:hover {
     transform: scale(1.1);

@@ -14,7 +14,7 @@
     flex-direction: column;
     background: url('../../Images/beams.jpg') no-repeat center;
     background-position: cover;
-    
+    margin-bottom: 6em
 }
 
 .about-title {
