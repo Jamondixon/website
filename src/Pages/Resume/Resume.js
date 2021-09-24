@@ -1,6 +1,5 @@
 import Nav from '../../Components/Nav/NavBar'
 import Doc from '../../Images/Resume.pdf'
-import Medium from "../../Images/medium.png"
 import './Resume.css'
 
 const Resume = () => {
@@ -13,22 +12,12 @@ const Resume = () => {
                 </div>
                 <div className="pdf-container">
                     <embed src={Doc}
-                    width='100%'
-                    height='200%'
-                    frameBorder='2px'
-                    type='application/pdf'
                     className='pdf'
                     ></embed>
                 </div>
-                <div className="footer">
-                    <a href="https://jamondixon.medium.com/" 
-                    rel="noreferrer" 
-                    target="_blank"
-                    >
-                        <img className="contact-social-icon" src={Medium} alt="Medium Icon"/>
-                    </a>
-                </div>
             </div>
+            <footer>
+            </footer>
         </div>
     );
 };

@@ -47,6 +47,8 @@
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: contain;
     min-width: 400px;
+    border-width: 8px solid;
+    border-color: var(--black);
     
 }
 

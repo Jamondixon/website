@@ -12,16 +12,15 @@ const About = () => {
         <div className="about-overall-container">
             <Nav />
             <div className="about-container">
-                <div className="about-title-container">
-                    <h1 className="about-title">ABOUT</h1>
-                </div>
-                <div className="profile-image-container">
-                    <img src={Profile} className="profile-image" alt="Jamon headshot"/>
-                </div>
-                <div className="padding-div">
+                <div className="profile-skill-container">
+                    <div className="about-title-container">
+                        <h1 className="about-title">ABOUT</h1>
+                    </div>
+                    <div className="profile-image-container">
+                        <img src={Profile} className="profile-image" alt="Jamon headshot"/>
+                    </div>
                     <div className="skill-container">
                         <div className="skill-heading-container">
-                            {/* <h2 className="skill-title">SKILLS</h2> */}
                             <img src={Skills} className="skill-title" alt="skills" />
                             <p className="skill-paragraph">
                                 <ul className="skill-list">
@@ -39,6 +38,8 @@ const About = () => {
                             </p>
                         </div>
                     </div>
+                </div>
+                <div className="padding-div">
                 </div>
                 <div className="body-container">
                     <div className='text-container'>

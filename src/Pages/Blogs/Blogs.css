@@ -155,3 +155,16 @@
     background-size: cover;
     background-position: fixed;
 }
+
+.footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-social-icon {
+    display: block;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+}

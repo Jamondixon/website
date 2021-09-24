@@ -1,5 +1,6 @@
 import Nav from '../../Components/Nav/NavBar'
 import './Blogs.css'
+import Medium from "../../Images/medium.png"
 
 const Blogs = () => {
     return (
@@ -137,6 +138,14 @@ const Blogs = () => {
                         </div>
                     </div>
                 </div>
+                <div className="footer">
+                        <a href="https://jamondixon.medium.com/" 
+                        rel="noreferrer" 
+                        target="_blank"
+                        >
+                        <img className="contact-social-icon" src={Medium} alt="Medium Icon"/>
+                        </a>
+                    </div>
             </div>
         </div>
     );
