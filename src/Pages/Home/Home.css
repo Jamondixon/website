@@ -13,7 +13,7 @@
     background-position: cover;
     display: flex;
     flex-direction: column;
-    padding-bottom: 4em;
+    padding-bottom: 1em;
     background: url('../../Images/computer copy.png') no-repeat center;
     background-size: 100%;
 }
@@ -32,7 +32,7 @@
     /* margin-left: auto;
     margin-right: auto; */
     width: 45%;
-    padding-bottom: 2em;
+    
     animation: backInUp; 
     animation-duration: 2s;
     
