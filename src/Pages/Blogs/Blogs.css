@@ -50,8 +50,18 @@
     border-top: 6px solid var(--black);
 }
 
+@media screen and (max-width: 500px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+    .card-title {
+        font-size: 25px;
+    }
+}
+
 .card-title {
-    font-size: 5vh;
+    font-size: 4vh;
     padding-bottom: 4vh;
     font-family: 'KoHo';
     text-shadow:   2px -2px 2px var(--lightblue);
