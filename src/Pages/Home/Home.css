@@ -29,12 +29,10 @@
 .home-graphic {
     display: block;
     align-items: center;
-    /* margin-left: auto;
-    margin-right: auto; */
     width: 45%;
-    
     animation: backInUp; 
     animation-duration: 2s;
+    
     
 }
 
