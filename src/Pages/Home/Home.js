@@ -9,13 +9,11 @@ const Home = () => {
         <div className="home-overall-container">
             <NavBar />
             <div className="home-container">
-                <div className="home-title-container">
-                    <div className="home-graphic-container">
-                        <img className="home-graphic" src={JamonDixon} alt="name"/>
-                    </div>
-                    <div className="home-profession-container">
-                        <h1 className="home-profession"> FULL STACK SOFTWARE ENGINEER</h1>
-                    </div>
+                <div className="home-graphic-container">
+                    <img className="home-graphic" src={JamonDixon} alt="name"/>
+                </div>
+                <div className="home-profession-container">
+                    <h1 className="home-profession"> FULL STACK SOFTWARE ENGINEER</h1>
                 </div>
             </div>
         </div>

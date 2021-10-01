@@ -70,6 +70,12 @@
     .projects-card-description {
         font-size: 20px;
     }
+    .projects-card-title {
+        font-size: 25px;
+    }
+    .projects-card {
+        height: 200px;
+    }
 }
 
 .projects-card-button {
@@ -92,7 +98,7 @@
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    height: 500px;
+    height: 400px;
     left: 0;
     margin: 0 auto;
     max-width: 600px;
@@ -127,7 +133,7 @@
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    height: 500px;
+    height: 400px;
     left: 0;
     margin: 0 auto;
     max-width: 600px;
@@ -147,7 +153,7 @@
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    height: 500px;
+    height: 400px;
     left: 0;
     margin: 0 auto;
     max-width: 600px;
@@ -167,7 +173,7 @@
     border: 6px solid var(--black);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
-    height: 500px;
+    height: 400px;
     left: 0;
     margin: 0 auto;
     max-width: 600px;

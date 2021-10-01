@@ -1,3 +1,4 @@
+
 :root {
     --cream: #F8F0DF;
     --lightBlue: #55ffff;
@@ -10,14 +11,12 @@
 
 
 .home-container {
-    background-position: cover;
-    display: block;
+    display: flex;
     flex-direction: column;
     padding-bottom: 1em;
     background: url('../../Images/computer copy.png') no-repeat center;
-    background-size: 100%;
-    overflow: hidden;
-    height: 50em;
+    background-size: cover;
+    background-position: fixed;
 }
 
 
@@ -29,7 +28,7 @@
 }
 
 .home-graphic {
-    display: block;
+    display: flex;
     align-items: center;
     width: 45%;
     animation: backInUp; 
@@ -38,9 +37,9 @@
 
 
 .home-profession-container {
-    display: block;
+    display: flex;
     text-align: center;
-    margin-bottom: 0;
+    overflow: hidden;
 }
 
 .home-profession {
