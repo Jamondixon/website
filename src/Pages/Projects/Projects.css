@@ -11,6 +11,7 @@
 .projects-title {
     text-align: center;
     font-size: 10vw;
+    margin: .4em;
     font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:

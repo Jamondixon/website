@@ -14,7 +14,7 @@ const Nav = () => {
             <div className='container'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <img src={Logo} alt="Initial logo"/>    
+                        <img className="logo" src={Logo} alt="Initial logo"/>    
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? ' fas fa-times' : 'fas fa-bars'} />
