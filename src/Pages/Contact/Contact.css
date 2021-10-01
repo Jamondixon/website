@@ -41,7 +41,9 @@
 }
 
 .contact-details-container {
-    margin: 8em;
+    /* margin: 8em; */
+    margin-top: 4em;
+    margin-bottom: 8em;
     height: 70%;
     max-width: 100%;
     background: url('../../Images/bluebrick.jpg') no-repeat center;
