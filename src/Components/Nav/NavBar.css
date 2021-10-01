@@ -243,9 +243,11 @@ display: none;
 
 @media screen and (max-width: 500px) {
     .logo {
-        width: 90%;
+        width: 50%;
         height: 110%;
-        margin-top: .2em;
+        margin: .2em;
+        position:relative;
+        left: 20px;
     }
 }
 
