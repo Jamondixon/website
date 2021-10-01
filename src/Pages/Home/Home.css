@@ -11,11 +11,13 @@
 
 .home-container {
     background-position: cover;
-    display: flex;
+    display: block;
     flex-direction: column;
     padding-bottom: 1em;
     background: url('../../Images/computer copy.png') no-repeat center;
     background-size: 100%;
+    overflow: hidden;
+    height: 50em;
 }
 
 
@@ -32,8 +34,6 @@
     width: 45%;
     animation: backInUp; 
     animation-duration: 2s;
-    
-    
 }
 
 
@@ -49,11 +49,7 @@
     color: white;
     font-weight: 800;
     text-shadow: 3px 1px 3px var(--black);
-    /* animation: flip; 
+    animation: flip; 
     animation-duration: 1s;
-    animation-delay: 2s; */
+    animation-delay: 2s;
 }
-
-
-
-
