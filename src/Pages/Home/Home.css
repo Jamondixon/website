@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    margin-top: 5em;
 }
 
 .home-graphic {
@@ -39,16 +39,19 @@
 .home-profession-container {
     display: flex;
     text-align: center;
-    overflow: hidden;
+    justify-content: center;
+    margin-bottom: 24em;
 }
 
 .home-profession {
     font-family: "Blinker";
-    font-size: 8vh;
+    font-size: 8vw;
     color: white;
     font-weight: 800;
     text-shadow: 3px 1px 3px var(--black);
     animation: flip; 
     animation-duration: 1s;
-    animation-delay: 2s;
+    animation-delay: 3s;
+    text-align: center;
+    margin-top: 2em;
 }
