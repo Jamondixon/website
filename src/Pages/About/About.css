@@ -79,24 +79,15 @@
     cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .profile-image-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        position: absolute;
+        visibility: hidden;
     }
-    .profile-image {
-        align-self: center;
-        height: 60%;
-        width: 60%;
-        /* position: relative;
-        right: 70px; */
-    }
-    .skill-list-item {
-        font-size: 10px;
-    }
+    
 }
+
+
 
 .profile-image:hover {
     transform: scale(1.3);
@@ -184,7 +175,7 @@ text-shadow:  2px  2px var(--red);
 
 .about-body {
     font-family: "Blinker";
-    font-size: 3vw;
+    font-size: 3.5vw;
     padding: 1em;
     line-height: 1.5;
 }
@@ -202,6 +193,7 @@ text-shadow:  2px  2px var(--red);
     /* position: relative;
     left: 50px;
     top: 50px; */
-    margin-bottom: 2em;
+    margin-bottom: .5em;
+    margin-top: .5em;
     width: 40%;
 }
