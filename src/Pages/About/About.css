@@ -24,7 +24,6 @@
     flex-direction: column;
     background: url('../../Images/beams.jpg') no-repeat center;
     background-position: cover;
-    margin: 1em;
 }
 
 .about-title-container {
@@ -91,10 +90,8 @@
         align-self: center;
         height: 60%;
         width: 60%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        right: 70px;
+        /* position: relative;
+        right: 70px; */
     }
     .skill-list-item {
         font-size: 10px;
@@ -195,16 +192,16 @@ text-shadow:  2px  2px var(--red);
 
 .professional-title {
     float: right;
-    padding: 2em;
+    padding: 1em;
     margin: 1em;
     padding-left: 2em;
-    width: 50%;
+    width: 60%;
 }
 
 .personal-title {
-    position: relative;
+    /* position: relative;
     left: 50px;
-    top: 50px;
+    top: 50px; */
     margin-bottom: 2em;
-    width: 50%;
+    width: 40%;
 }
