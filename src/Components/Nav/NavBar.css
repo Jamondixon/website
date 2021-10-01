@@ -241,6 +241,12 @@ display: none;
 display: none;
 }
 
+@media screen and (max-width: 500px) {
+    .logo {
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 960px) {
 .NavbarItems {
     position: relative;
