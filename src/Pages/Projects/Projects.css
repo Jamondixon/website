@@ -56,6 +56,9 @@
     font-family: 'KoHo';
     text-shadow:   2px -2px 2px var(--lightblue);
     padding-bottom: 5vh;
+    margin-right: 5px;
+    margin-left: 5px;
+    
 }
 
 .projects-card-description {

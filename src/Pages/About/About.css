@@ -24,7 +24,7 @@
     flex-direction: column;
     background: url('../../Images/beams.jpg') no-repeat center;
     background-position: cover;
-    
+    margin: 1em;
 }
 
 .about-title-container {
@@ -38,7 +38,7 @@
 
 .about-title {
     text-align: center;
-    font-size: 10vh;
+    font-size: 10vw;
     font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
@@ -80,6 +80,27 @@
     cursor: pointer;
 }
 
+@media (max-width: 500px) {
+    .profile-image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .profile-image {
+        align-self: center;
+        height: 60%;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        right: 70px;
+    }
+    .skill-list-item {
+        font-size: 10px;
+    }
+}
+
 .profile-image:hover {
     transform: scale(1.3);
     transition: all 0.4s;
@@ -95,6 +116,7 @@
     width: 40%; */
     float: right;
 }
+
 
 .queso-image {
     max-height: 600px;
@@ -149,7 +171,7 @@
 
 .skill-list-item {
 font-family: "KoHo";
-font-size: 30px;
+font-size: 1.5em;
 font-weight: 600;
 color:white;
 text-shadow:  2px  2px var(--red);
@@ -159,20 +181,24 @@ text-shadow:  2px  2px var(--red);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .about-body {
     font-family: "Blinker";
-    font-size: 4vh;
+    font-size: 3vw;
     padding: 1em;
     line-height: 1.5;
 }
 
+
 .professional-title {
     float: right;
     padding: 2em;
-    margin: auto;
-    padding-left: 2em;;
+    margin: 1em;
+    padding-left: 2em;
+    width: 50%;
 }
 
 .personal-title {
@@ -180,4 +206,5 @@ text-shadow:  2px  2px var(--red);
     left: 50px;
     top: 50px;
     margin-bottom: 2em;
+    width: 50%;
 }

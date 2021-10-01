@@ -49,7 +49,7 @@ const Projects = () => {
                                 <button className="projects-card-button" 
                                 buttonStyle='primary--btn'>Click to View</button>
                             </a>
-                            <h3 className="projects-card-description">React Native mobile app to help people connect with others at the same event and help find items they may have forgotten upon arrival.</h3>
+                            <h3 className="projects-card-description">React Native app to help people connect with others at the same event and help find items they may have forgotten upon arrival.</h3>
                         </div>
                     </div>
                     <div className="projects-card-four">
