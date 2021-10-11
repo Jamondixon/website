@@ -94,6 +94,7 @@
     font-weight: 800;
     border-width: medium;
     border-color: var(--black);
+    cursor: pointer;
 }
 
 .projects-card {
