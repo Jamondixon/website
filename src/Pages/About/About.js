@@ -22,20 +22,20 @@ const About = () => {
                     <div className="skill-container">
                         <div className="skill-heading-container">
                             <img src={Skills} className="skill-title" alt="skills" />
-                            <p className="skill-paragraph">
-                                <ul className="skill-list">
-                                    <li className='skill-list-item'>HTML</li>
-                                    <li className='skill-list-item'>CSS</li>
-                                    <li className='skill-list-item'>Ruby</li>
-                                    <li className='skill-list-item'>Ruby on Rails</li>
-                                    <li className='skill-list-item'>Javascript</li>
-                                    <li className='skill-list-item'>React</li>
-                                    <li className='skill-list-item'>React Native</li>
-                                    <li className='skill-list-item'>Heroku</li>
-                                    <li className='skill-list-item'>Bootstrap</li>
-                                    <li className='skill-list-item'>Git</li>
-                                </ul>
-                            </p>
+                            
+                            <ul className="skill-list">
+                                <li className='skill-list-item'>HTML</li>
+                                <li className='skill-list-item'>CSS</li>
+                                <li className='skill-list-item'>Ruby</li>
+                                <li className='skill-list-item'>Ruby on Rails</li>
+                                <li className='skill-list-item'>Javascript</li>
+                                <li className='skill-list-item'>React</li>
+                                <li className='skill-list-item'>React Native</li>
+                                <li className='skill-list-item'>Heroku</li>
+                                <li className='skill-list-item'>Bootstrap</li>
+                                <li className='skill-list-item'>Git</li>
+                            </ul>
+                            
                         </div>
                     </div>
                 </div>

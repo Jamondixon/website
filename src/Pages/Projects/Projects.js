@@ -33,7 +33,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>Click to View</button>
+                                >Click to View</button>
                             </a>
                             <h3 className="projects-card-description">JavaScript application to track cryptocurrency prices in real time with graphical representation.</h3>
                         </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>Click to View</button>
+                                >Click to View</button>
                             </a>
                             <h3 className="projects-card-description">React Native app to help people connect with others at the same event and help find items they may have forgotten upon arrival.</h3>
                         </div>
@@ -61,7 +61,7 @@ const Projects = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="projects-card-button" 
-                                buttonStyle='primary--btn'>Click to View</button>
+                                >Click to View</button>
                             </a>
                             <h3 className="projects-card-description">JavaScript website to help connect disc golfers with the best custom-dyed discs</h3>
                         </div>
