@@ -20,7 +20,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">May 9th, 2021</h3>
                         </div>
@@ -34,7 +34,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">July 19th, 2021</h3>
                         </div>
@@ -48,7 +48,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">July 26th, 2021</h3>
                         </div>
@@ -62,7 +62,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">August 2nd, 2021</h3>
                         </div>
@@ -76,7 +76,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">August 9th, 2021</h3>
                         </div>
@@ -90,7 +90,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">August 16th, 2021</h3>
                         </div>
@@ -104,7 +104,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">August 18th, 2021</h3>
                         </div>
@@ -118,7 +118,7 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">August 29th, 2021</h3>
                         </div>
@@ -132,9 +132,79 @@ const Blogs = () => {
                             rel='noopener noreferrer'
                             >
                                 <button className="card-button" 
-                                buttonStyle='primary--btn'>LINK</button>
+                                >LINK</button>
                             </a>
                             <h3 className="card-date">September 1st, 2021</h3>
+                        </div>
+                    </div>
+                    <div className="card ten">
+                        <div className="card-title-container">
+                            <h2 className="card-title">The BIGGEST O of them all</h2>
+                            <a className="card-link"
+                            href='https://jamondixon.medium.com/the-biggest-o-of-them-all-notation-93352775acc7'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">September 13th, 2021</h3>
+                        </div>
+                    </div>
+                    <div className="card eleven">
+                        <div className="card-title-container">
+                            <h2 className="card-title">Hooks and Ladders</h2>
+                            <a className="card-link"
+                            href='https://jamondixon.medium.com/hooks-and-ladders-c88e66b44c5'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">September 19th, 2021</h3>
+                        </div>
+                    </div>
+                    <div className="card twelve">
+                        <div className="card-title-container">
+                            <h2 className="card-title">React vs Vue.js</h2>
+                            <a className="card-link"
+                            href='https://medium.com/geekculture/react-vs-vue-js-b5d82e7af861'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">September 26th, 2021</h3>
+                        </div>
+                    </div>
+                    <div className="card thirteen">
+                        <div className="card-title-container">
+                            <h2 className="card-title">How do you stack up?</h2>
+                            <a className="card-link"
+                            href='https://medium.com/codex/how-do-you-stack-up-f9280ff4636f'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">October 3rd, 2021</h3>
+                        </div>
+                    </div>
+                    <div className="card fourteen">
+                        <div className="card-title-container">
+                            <h2 className="card-title">Next up...Next.js</h2>
+                            <a className="card-link"
+                            href='https://medium.com/geekculture/next-up-next-js-7b5eca81d212'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">October 7th, 2021</h3>
                         </div>
                     </div>
                 </div>
