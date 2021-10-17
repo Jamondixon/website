@@ -16,8 +16,6 @@ const Resume = () => {
                     ></embed>
                 </div>
             </div>
-            <footer>
-            </footer>
         </div>
     );
 };

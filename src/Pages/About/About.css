@@ -9,11 +9,8 @@
     --red: #f40305;
 }
 
-
-
 .profile-skill-container {
     display: block;
-
 }
 
 .about-container {
@@ -83,8 +80,8 @@
         visibility: hidden;
     }
     .professional-title {
-        padding: .5em;
-        margin: .5em;
+        padding: 0;
+        margin: 0;
     }
     .queso-image-container {
         margin-left: 7vw;
@@ -103,6 +100,8 @@
 .queso-image-container {
     display: flex;
     float: right;
+    margin-bottom: 2em;
+    padding-left: 1em;
 }
 
 
@@ -133,7 +132,7 @@
     bottom: 10px;
     padding-top: 2em;
     margin-top: 50px;
-    margin-left: 5.2em;
+    margin-left: 5.0em;
     margin-bottom: 50px;
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     border-radius: 10px;
@@ -196,5 +195,10 @@ text-shadow:  2px  2px var(--red);
 .personal-title {
     margin-bottom: .5em;
     margin-top: .5em;
+    margin-left: 1em;
     width: 40%;
+}
+
+.personal-paragraph-container {
+    text-align: center;
 }
