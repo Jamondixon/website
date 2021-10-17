@@ -15,7 +15,7 @@
 .resume-title {
     text-align: center;
     font-size: 10vw;
-    margin: .4em;
+    
     font-family: 'Acme';
     color: var(--lightblue);
     text-shadow:
@@ -60,5 +60,11 @@
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+
+@media (max-width: 700px) {
+    .pdf {
+        height: 100%;
+    }
 }
 
