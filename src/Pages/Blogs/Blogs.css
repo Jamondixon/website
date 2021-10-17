@@ -52,8 +52,8 @@
 
 
 .card-title {
-    font-size: 4.5vw;
-    padding-bottom: 4vw;
+    font-size: 3.8vw;
+    padding-bottom: 3vw;
     font-family: 'Acme';
     text-shadow:   2px -2px 2px var(--lightblue);
     
@@ -105,19 +105,25 @@
     opacity: .9;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .card-container {
         display: grid;
         grid-template-columns: repeat(2, auto);
 
     }
     .card-title {
-        font-size: 25px;
+        font-size: 23px;
     }
     .card {
         height: 300px;
     }
     
+}
+
+@media screen and (min-width: 900px) {
+    .card-title {
+        font-size: 45px;
+    }
 }
 
 .card:hover {
