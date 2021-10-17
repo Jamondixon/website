@@ -64,27 +64,25 @@
 
 .projects-card-description {
     font-family: 'KoHo';
-    font-size: 25px;
+    font-size: 22px;
     padding: .2em;
     color: white;
     text-shadow: 1px 1px var(--red);
 }
 
-@media (max-width: 500px) {
-    /* .projects-card-description {
-        font-size: 16px;
-    }
-    .projects-card-title {
-        font-size: 20px;
-        padding-top: 10px;
-    }
-    .projects-card {
-        height: 60%;
-    } */
+@media (max-width: 800px) {
     .projects-card-container {
         grid-template-columns: repeat(1, auto);
     }
+    .projects-card-title {
+        font-weight: 800;
+        font-size: 40px;
+    }
+    .projects-card-description {
+        font-size: 25px;
+    }
 }
+
 
 .projects-card-button {
     width: 120px;
@@ -117,7 +115,7 @@
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 90%;
+    width: 80%;
 }
 
 
@@ -152,7 +150,7 @@
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 90%;
+    width: 80%;
 }
 
 .projects-card-three {
@@ -172,7 +170,7 @@
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 90%;
+    width: 80%;
 }
 
 .projects-card-four {
@@ -192,5 +190,5 @@
     text-align: center;
     top: 10%;
     transition: all 0.4s;
-    width: 90%;
+    width: 80%;
 }
