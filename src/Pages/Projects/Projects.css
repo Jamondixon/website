@@ -70,16 +70,19 @@
     text-shadow: 1px 1px var(--red);
 }
 
-@media (max-width: 800px) {
-    .projects-card-description {
-        font-size: 18px;
+@media (max-width: 500px) {
+    /* .projects-card-description {
+        font-size: 16px;
     }
     .projects-card-title {
         font-size: 20px;
         padding-top: 10px;
     }
     .projects-card {
-        height: 200px;
+        height: 60%;
+    } */
+    .projects-card-container {
+        grid-template-columns: repeat(1, auto);
     }
 }
 

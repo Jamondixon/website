@@ -50,19 +50,10 @@
     border-top: 6px solid var(--black);
 }
 
-@media screen and (max-width: 500px) {
-    .card-container {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-    }
-    .card-title {
-        font-size: 25px;
-    }
-}
 
 .card-title {
-    font-size: 4vh;
-    padding-bottom: 4vh;
+    font-size: 4.5vw;
+    padding-bottom: 4vw;
     font-family: 'KoHo';
     text-shadow:   2px -2px 2px var(--lightblue);
     
@@ -112,6 +103,21 @@
     transition: all 0.4s;
     width: 80%;
     opacity: .9;
+}
+
+@media screen and (max-width: 500px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+
+    }
+    .card-title {
+        font-size: 25px;
+    }
+    .card {
+        height: 300px;
+    }
+    
 }
 
 .card:hover {
