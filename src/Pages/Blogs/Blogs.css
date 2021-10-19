@@ -69,6 +69,8 @@
     position: absolute;
     bottom: 10px;
     width: 50%;
+    animation: backInUp; 
+    animation-duration: 2s;
 }
 
 
@@ -83,6 +85,10 @@
     font-weight: 800;
     border-width: medium;
     border-color: var(--black);
+    
+}
+
+.card-button:hover {
     box-shadow: 2px 2px 2px 1px var(--lightBlue);
 }
 
