@@ -190,6 +190,26 @@ button {
     margin: .5em;
 }
 
+
+
+
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px 1px var(--lightBlue);
+}
+
+button:active {
+    transform: scale(.96);
+    box-shadow: 0px 1px 1px 0 var(--lightBlue);
+}
+
+
+
 @media screen and (max-width: 500px) {
     button {
         width: 60px;

@@ -13,6 +13,8 @@ const Projects = () => {
                     <div className="projects-card">
                         <div className="projects-card-title-container">
                             <h2 className="projects-card-title">303 QuesoFinder</h2>
+                        </div>
+                        <div className="anchor-container">
                             <a className="projects-card-link"
                             href='https://hopeful-raman-70b1e5.netlify.app/'
                             target='_blank'
@@ -21,6 +23,8 @@ const Projects = () => {
                                 <button className="projects-card-button" 
                                 >Click to View</button>
                             </a>
+                        </div>
+                        <div className="projects-card-description-container">
                             <h3 className="projects-card-description">SPA designed to showcase, rate, and point people in the direction of Denver’s best queso</h3>
                         </div>
                     </div>

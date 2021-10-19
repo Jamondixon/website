@@ -122,7 +122,7 @@ const Contact = () => {
                             <div>
                             <button
                                 type='button'
-                                className='button clear'
+                                className='clear-button'
                                 onClick={(e) => clearForm(e)}
                             >
                                 CLEAR

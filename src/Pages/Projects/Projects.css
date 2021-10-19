@@ -41,6 +41,7 @@
     
 }
 
+
 .projects-card-container {
     display: grid;
     grid-column-gap: 1em;
@@ -52,35 +53,62 @@
     
 }
 
+/* .projects-card-title-container {
+    height: 20%;
+    padding-top: 1.2em;
+} */
+
+/* .projects-card-description-container {
+    height: 30%;
+} */
+
+/* .anchor-container {
+    background: url('../../Images/303quesofinder.png') no-repeat center;
+    background-size: cover;
+    background-position: fixed;
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    border: solid black 4px;
+    
+    
+} */
+
 .projects-card-title {
-    font-size: 6vh;
+    font-size: 4.5vw;
     font-family: 'Acme';
     text-shadow:   2px -2px 2px var(--lightblue);
-    padding-bottom: 5vh;
     margin-right: 5px;
     margin-left: 5px;
     
 }
 
+
 .projects-card-description {
     font-family: 'KoHo';
-    font-size: 25px;
+    font-size: 23px;
     padding: .2em;
     color: white;
-    text-shadow: 1px 1px var(--red);
+    text-shadow:   2px -2px 2px var(--red);
+
 }
+
 
 @media (max-width: 800px) {
     .projects-card-container {
         grid-template-columns: repeat(1, auto);
+        grid-column-gap: 1em;
+        grid-row-gap: 2em;
     }
     .projects-card-title {
         font-weight: 800;
-        font-size: 40px;
+        font-size: 3em;
     }
     .projects-card-description {
-        font-size: 22px;
+        font-size: 1.5em;
+        
     }
+    
 }
 
 
@@ -96,7 +124,16 @@
     border-width: medium;
     border-color: var(--black);
     cursor: pointer;
+    margin-top: 3em;
+    box-shadow: 2px 2px 2px 1px var(--lightBlue);
 }
+
+.projects-card-button:active {
+    transform: scale(.96);
+    box-shadow: 0px 1px 1px 0 var(--lightBlue);
+}
+
+
 
 .projects-card {
     background: url('../../Images/303quesofinder.png') no-repeat center;

@@ -83,7 +83,12 @@
     font-weight: 800;
     border-width: medium;
     border-color: var(--black);
-    
+    box-shadow: 2px 2px 2px 1px var(--lightBlue);
+}
+
+.card-button:active {
+    transform: scale(.96);
+    box-shadow: 0px 1px 1px 0 var(--lightBlue);
 }
 
 .card {

@@ -10,7 +10,7 @@ const Home = () => {
             <NavBar />
             <div className="home-container">
                 <div className="home-graphic-container">
-                    <img className="home-graphic" src={JamonDixon} alt="name"/>
+                    <img className="home-graphic" src={JamonDixon} alt="Jamon Dixon"/>
                 </div>
                 <div className="home-profession-container">
                     <h1 className="home-profession"> FULL STACK SOFTWARE ENGINEER</h1>
