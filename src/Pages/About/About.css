@@ -74,21 +74,6 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 500px) {
-    .profile-image-container {
-        position: absolute;
-        visibility: hidden;
-    }
-    .professional-title {
-        padding: 0;
-        margin: 0;
-    }
-    .queso-image-container {
-        margin-left: 7vw;
-    }
-    
-    
-}
 
 
 
@@ -101,13 +86,12 @@
     display: flex;
     float: right;
     margin-bottom: 2em;
-    padding-left: 1em;
 }
 
 
 .queso-image {
-    max-height: 600px;
-    max-width: 600px;
+    max-height: 50vw;
+    max-width: 50vw;
     height: 80%;
     width: 80%;
     position: relative;
@@ -193,12 +177,40 @@ text-shadow:  2px  2px var(--red);
 }
 
 .personal-title {
-    margin-bottom: .5em;
-    margin-top: .5em;
-    margin-left: 1em;
+    float: left;
+    margin: 1em;
     width: 40%;
 }
 
-.personal-paragraph-container {
-    text-align: center;
+@media screen and (max-width: 500px) {
+    .profile-image-container {
+        position: absolute;
+        visibility: hidden;
+    }
+    .professional-title {
+        padding: 0;
+        margin: 0em;
+        width: 50%;
+    }
+    .queso-image-container {
+        margin-left: .4em;
+        margin-right: 0;
+        margin-bottom: 1em;
+    }
+    .personal-title {
+        width: 32%;
+    }
+    .skill-container {
+        height: 350px;
+        width: 75px;
+        justify-content: center;
+    }
+    .skill-list {
+        font-size: 12px;
+        padding-bottom: 1em;
+    }
+    .skill-title {
+        width: 55%;
+        
+    }
 }

@@ -47,7 +47,7 @@ const About = () => {
                             {/* <h2 className='about-subtitle'>PROFESSIONAL LIFE</h2> */}
                             <img src={Professional} className="professional-title" alt="professional" />
                             <p className='about-body'>
-                                Former cannabis connoisseur turned full-stack developer with a curious mind and an aptitude for art. I Entered the world of coding in 2020 after a case of COVID-19 allowed me some time to reevaluate my aspirations for the future. I wanted to work towards growing my creative talents and cultivating a sense of purpose, rather than cannabis. As a graduate of Texas Tech University and Flatiron School, I come to the tech industry commited to being a lifelong learner and capable of conquering whatever life throws at me.
+                                Hi, my name is Jamon Dixon and I am currently a resident of Austin, TX. I have always had a passion for figuring out what makes things work behind the scences and have translated that quality into my pursuit of web and software development. Frontend development is quickly becoming my favorite to work with, but I am a capable full-stack engineer.  As a graduate of Texas Tech University and Flatiron School, I come to the tech industry commited to being a lifelong learner and capable of conquering whatever life throws at me. I use my experience across many different industries and my ability to adapt to any type of environment to succeed at whatever I put my mind to.
                             </p>
                         </div>
                         <div className="queso-image-container">
@@ -57,7 +57,7 @@ const About = () => {
                             {/* <h2 className='about-subtitle'>PERSONAL LIFE</h2> */}
                             <img src={Personal} className="personal-title" alt="personal" />
                             <p className='about-body'>
-                                I'm an avid sports fan and love to go see live music with my fiancé, Ellie. She and I love to sample the best food and drink from the region of wherever we happen to be traveling. I'm a regular at music festivals all over the United States and you can always find me at my local disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. Most recently, I have taken an interest in cryptocurrency and the latest blockchain technologies.
+                                I'm an avid sports fan and love to go see live music with my fiancé, Ellie. She and I love to travel and sample the best food and drink from the region. I'm a regular at music festivals all over the United States and you can always find me at my local disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. As of late, I have taken an interest in cryptocurrency and the latest blockchain technologies.
                             </p>
                         </div>
                     </div>
