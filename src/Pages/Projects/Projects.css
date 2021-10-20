@@ -105,7 +105,7 @@
         font-size: 3em;
     }
     .projects-card-description {
-        font-size: 1.5em;
+        font-size: 1.3em;
         
     }
     
@@ -125,7 +125,6 @@
     border-color: var(--black);
     cursor: pointer;
     margin-top: 3em;
-    box-shadow: 2px 2px 2px 1px var(--lightBlue);
 }
 
 .projects-card-button:active {
