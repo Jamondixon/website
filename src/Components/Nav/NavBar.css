@@ -43,6 +43,7 @@ text-shadow: 3px 6px var(--lightblue);
 justify-self: start;
 margin-left: .25em;
 margin-right: 1em;
+padding-left: .25em;
 position: relative;
 text-decoration: none;
 top: 0.1em;
@@ -55,9 +56,10 @@ grid-gap: 10px;
 grid-template-columns: repeat(6, auto);
 justify-content: end;
 margin-left: 16em;
+padding-right: 2em;
 list-style: none;
 text-align: center;
-width: 60vw;
+width: 58vw;
 }
 
 .nav-item {
@@ -99,7 +101,7 @@ align-items: center;
 color: var(--black);
 display: flex;
 font-family: 'KoHo';
-font-size: 30px;
+font-size: 23px;
 font-weight: 700;
 height: 100%;
 padding: 0.5rem 1rem;
