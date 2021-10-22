@@ -135,13 +135,17 @@
 
 .skill-list {
     margin: 1em;
+    margin-left: 2.5em;
+    list-style: none;
 }
 
 .skill-title {
     display: block;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 75%;
+    margin-left: 1.2em;
+
 }
 
 .skill-list-item {
@@ -203,7 +207,7 @@ text-shadow:  2px  2px var(--red);
     .skill-container {
         height: 350px;
         width: 75px;
-        justify-content: center;
+        
     }
     .skill-list {
         font-size: 12px;
