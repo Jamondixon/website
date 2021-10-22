@@ -50,29 +50,8 @@
     margin-bottom: 4em;
     max-width: 100%;
     border-top: 6px solid var(--black);
-    
 }
 
-/* .projects-card-title-container {
-    height: 20%;
-    padding-top: 1.2em;
-} */
-
-/* .projects-card-description-container {
-    height: 30%;
-} */
-
-/* .anchor-container {
-    background: url('../../Images/303quesofinder.png') no-repeat center;
-    background-size: cover;
-    background-position: fixed;
-    height: 50%;
-    width: 80%;
-    margin: auto;
-    border: solid black 4px;
-    
-    
-} */
 
 .projects-card-title {
     font-size: 4.5vw;
@@ -106,9 +85,7 @@
     }
     .projects-card-description {
         font-size: 1.3em;
-        
     }
-    
 }
 
 
@@ -150,7 +127,6 @@
     right: 0;
     text-align: center;
     top: 10%;
-    transition: all 0.4s;
     width: 80%;
 }
 
@@ -185,7 +161,6 @@
     right: 0;
     text-align: center;
     top: 10%;
-    transition: all 0.4s;
     width: 80%;
 }
 
@@ -205,7 +180,6 @@
     right: 0;
     text-align: center;
     top: 10%;
-    transition: all 0.4s;
     width: 80%;
 }
 
@@ -225,6 +199,5 @@
     right: 0;
     text-align: center;
     top: 10%;
-    transition: all 0.4s;
     width: 80%;
 }

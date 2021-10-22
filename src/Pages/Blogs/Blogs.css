@@ -111,7 +111,6 @@
     position: relative;
     text-align: center;
     top: 10%;
-    transition: all 0.4s;
     width: 80%;
     opacity: .9;
 }
