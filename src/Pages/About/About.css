@@ -79,7 +79,7 @@
 
 .profile-image:hover {
     transform: scale(1.3);
-    transition: all 0.4s;
+    transition: all 0.3s;
 }
 
 .queso-image-container {
