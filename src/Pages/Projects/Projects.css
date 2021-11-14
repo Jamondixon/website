@@ -146,6 +146,9 @@
 .projects-card-five:hover {
     transform: scale(1.1);
 }
+.projects-card-six:hover {
+    transform: scale(1.1);
+}
 
 .projects-card-two {
     background: url('../../Images/cryptocurrent.png') no-repeat center;
@@ -209,6 +212,25 @@
 
 .projects-card-five {
     background: url('../../Images/GuessingGame.png') no-repeat center;
+    background-size: cover;
+    background-position: fixed;
+    border: 6px solid var(--black);
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 8px var(--darkblue);
+    height: 400px;
+    left: 0;
+    margin: 0 auto;
+    max-width: 600px;
+    overflow: hidden;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 10%;
+    width: 80%;
+    transition: .3s;
+}
+.projects-card-six {
+    background: url('../../Images/Computender.png') no-repeat center;
     background-size: cover;
     background-position: fixed;
     border: 6px solid var(--black);
