@@ -70,6 +70,20 @@ const Projects = () => {
                             <h3 className="projects-card-description">JavaScript website to help connect disc golfers with the best custom-dyed discs</h3>
                         </div>
                     </div>
+                    <div className="projects-card-five">
+                        <div className="projects-card-title-container">
+                            <h2 className="projects-card-title">Guessing Game</h2>
+                            <a className="projects-card-link"
+                            href='https://jolly-perlman-1ec2fc.netlify.app/'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="projects-card-button" 
+                                >Click to View</button>
+                            </a>
+                            <h3 className="projects-card-description">Simple higher-lower guessing game created with JavaScript where user decides the number range and attempts to guess</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

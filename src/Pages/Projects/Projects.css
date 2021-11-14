@@ -145,6 +145,9 @@
 .projects-card-four:hover {
     transform: scale(1.1);
 }
+.projects-card-five:hover {
+    transform: scale(1.1);
+}
 
 .projects-card-two {
     background: url('../../Images/cryptocurrent.png') no-repeat center;
@@ -205,3 +208,5 @@
     width: 80%;
     transition: .3s;
 }
+
+
