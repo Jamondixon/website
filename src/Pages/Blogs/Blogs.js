@@ -207,6 +207,34 @@ const Blogs = () => {
                             <h3 className="card-date">October 7th, 2021</h3>
                         </div>
                     </div>
+                    <div className="card fifteen">
+                        <div className="card-title-container">
+                            <h2 className="card-title">Doing the most with the least</h2>
+                            <a className="card-link"
+                            href='https://medium.com/geekculture/doing-the-most-with-the-least-24f2deb9f7d'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">October 18th, 2021</h3>
+                        </div>
+                    </div>
+                    <div className="card sixteen">
+                        <div className="card-title-container">
+                            <h2 className="card-title">MAX out your creativity</h2>
+                            <a className="card-link"
+                            href='https://medium.com/geekculture/max-out-your-creativity-3835535bff9c'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="card-button" 
+                                >LINK</button>
+                            </a>
+                            <h3 className="card-date">October 24th, 2021</h3>
+                        </div>
+                    </div>
                 </div>
                 <div className="footer">
                         <a href="https://jamondixon.medium.com/" 
