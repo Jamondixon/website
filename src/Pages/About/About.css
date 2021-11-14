@@ -166,7 +166,7 @@ text-shadow:  2px  2px var(--red);
 
 .about-body {
     font-family: "Blinker";
-    font-size: 3.5vw;
+    font-size: 3vw;
     padding: 1em;
     line-height: 1.5;
 }
@@ -202,7 +202,7 @@ text-shadow:  2px  2px var(--red);
         margin-bottom: 1em;
     }
     .personal-title {
-        width: 32%;
+        width: 35%;
     }
     .skill-container {
         height: 350px;
