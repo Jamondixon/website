@@ -9,7 +9,7 @@
 }
 
 .resume-overall-container {
-    height: 75vh;
+    height: 78vh;
 }
 
 .resume-title {
@@ -44,13 +44,13 @@
     background: url('../../Images/beams.jpg') no-repeat center;
     background-position: cover;
     height: 200%;
-
 }
 
 
 .pdf-container {
     height: 30em;
     margin: 2rem;
+    margin-bottom: 2em;
 }
 
 .pdf {
