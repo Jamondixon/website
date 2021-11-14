@@ -84,6 +84,20 @@ const Projects = () => {
                             <h3 className="projects-card-description">Simple higher-lower guessing game created with JavaScript where user decides the number range and attempts to guess</h3>
                         </div>
                     </div>
+                    <div className="projects-card-six">
+                        <div className="projects-card-title-container">
+                            <h2 className="projects-card-title">Computender</h2>
+                            <a className="projects-card-link"
+                            href='https://github.com/Jamondixon/virtual_bartender'
+                            target='_blank'
+                            rel='noopener noreferrer'
+                            >
+                                <button className="projects-card-button" 
+                                >Click to View</button>
+                            </a>
+                            <h3 className="projects-card-description">Basic Ruby CLI app that matches users with drink recipes</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
