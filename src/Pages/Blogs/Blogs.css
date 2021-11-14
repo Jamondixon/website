@@ -220,6 +220,18 @@
     background-position: fixed;
 }
 
+.fifteen {
+    background: url('../../Images/css-properties.jpeg') no-repeat center;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.sixteen {
+    background: url('../../Images/adobe\ max.jpeg') no-repeat center;
+    background-size: cover;
+    background-position: fixed;
+}
+
 .footer {
     display: grid;
     justify-content: center;
