@@ -81,7 +81,7 @@ const Projects = () => {
                                 <button className="projects-card-button" 
                                 >Click to View</button>
                             </a>
-                            <h3 className="projects-card-description">Simple higher-lower guessing game created with JavaScript where user decides the number range and attempts to guess</h3>
+                            <h3 className="projects-card-description">Higher-lower guessing game created with JavaScript where user decides the number range and attempts to guess a random number in between</h3>
                         </div>
                     </div>
                     <div className="projects-card-six">
@@ -95,7 +95,7 @@ const Projects = () => {
                                 <button className="projects-card-button" 
                                 >Click to View</button>
                             </a>
-                            <h3 className="projects-card-description">Basic Ruby CLI app that matches users with drink recipes</h3>
+                            <h3 className="projects-card-description">Ruby CLI app that matches users with drink recipes</h3>
                         </div>
                     </div>
                 </div>
