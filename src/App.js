@@ -6,20 +6,44 @@ import Projects from './Pages/Projects/Projects';
 import Blogs from './Pages/Blogs/Blogs';
 import Contact from './Pages/Contact/Contact';
 import './App.css';
+import '../src/Components/Loader/Loader.css'
+import Loader from './Components/Loader/Loader';
+import React, { useState, useEffect } from 'react'
 
 function App() {
+
+const [loading, setLoading] = useState(false);
+const [currentLink, setCurrentLink] = useState('');
+
+useEffect(() => {
+  setLoading(true)
+  setTimeout(() => setLoading(false), 1800)
+}, [currentLink])
+
+useEffect(() => {
+  setTimeout(() => setLoading(false), 3500)
+  updateLink(window.location.href)
+}, [])
+
+const updateLink = (path) => {
+  setCurrentLink(path)
+}
+
 
   let location = useLocation();
   return (
     <>
-      <Switch location={location} key={location.pathname}>
-        <Route path='/' exact component={Home} />
-        <Route path='/about' exact component={About} />
-        <Route path='/resume' exact component={Resume} />
-        <Route path='/projects' exact component={Projects} />
-        <Route path='/blogs' exact component={Blogs} />
-        <Route path='/contact' exact component={Contact} />
-      </Switch>
+      <div className="app" >
+        <Loader loadState={loading}/> 
+        <Switch location={location} key={location.pathname}>
+          <Route path='/' exact component={Home} />
+          <Route path='/about' exact component={About} />
+          <Route path='/resume' exact component={Resume} />
+          <Route path='/projects' exact component={Projects} />
+          <Route path='/blogs' exact component={Blogs} />
+          <Route path='/contact' exact component={Contact} />
+        </Switch>
+      </div>
     </>
   );
 }

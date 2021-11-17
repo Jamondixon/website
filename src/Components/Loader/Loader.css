@@ -1,0 +1,36 @@
+.loader {
+    z-index: 230000;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(10, 10, 10);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader-animation {
+    transition: all 1s linear;
+}
+
+.loader-hidden {
+    opacity: 0;
+    z-index: -50;
+}
+
+.loader img {
+    width: 40px;
+    height: 40px;
+    animation: image linear 1.2s infinite alternate;
+}
+
+@keyframes image {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(2);
+    }
+}

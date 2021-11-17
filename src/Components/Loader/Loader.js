@@ -1,7 +1,7 @@
 import React from 'react'
 import Logo from "../../Images/JDct.png"
 
-export default function Preload(props) {
+export default function Loader(props) {
 
     const checkClass = () => {
         if(props.loadState){
