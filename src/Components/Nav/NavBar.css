@@ -41,7 +41,7 @@ font-size: 4rem;
 font-weight: 900;
 text-shadow: 3px 6px var(--lightblue);
 justify-self: start;
-margin-left: .25em;
+margin-left: .20em;
 margin-right: 1em;
 padding-left: .25em;
 position: relative;
@@ -247,7 +247,7 @@ display: none;
         height: 100%;
         margin: .3em;
         position:relative;
-        left: 20px;
+        left: 18px;
     }
 }
 

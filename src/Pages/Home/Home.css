@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     width: 30%;
-    animation: backInUp; 
+    animation: flip; 
     animation-duration: 2s;
     animation-delay: 2s;
     padding-top: 2em;

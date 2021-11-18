@@ -37,11 +37,11 @@ const updateLink = (path) => {
         <Loader loadState={loading}/> 
         <Switch location={location} key={location.pathname}>
           <Route path='/' exact component={Home} />
-          <Route path='/about' exact component={About} loadState={loading}/>
-          <Route path='/resume' exact component={Resume} loadState={loading}/>
-          <Route path='/projects' exact component={Projects} loadState={loading}/>
-          <Route path='/blogs' exact component={Blogs} loadState={loading}/>
-          <Route path='/contact' exact component={Contact} loadState={loading}/>
+          <Route path='/about' exact component={About} updateLink={updateLink}/>
+          <Route path='/resume' exact component={Resume} updateLink={updateLink}/>
+          <Route path='/projects' exact component={Projects} updateLink={updateLink}/>
+          <Route path='/blogs' exact component={Blogs} updateLink={updateLink}/>
+          <Route path='/contact' exact component={Contact} updateLink={updateLink}/>
         </Switch>
       </div>
     </>
