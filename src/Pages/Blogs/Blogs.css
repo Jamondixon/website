@@ -70,7 +70,7 @@
     bottom: 10px;
     width: 50%;
     animation: backInUp; 
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 
@@ -116,26 +116,6 @@
     transition: .3s;
 }
 
-@media screen and (max-width: 600px) {
-    .card-container {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-
-    }
-    .card-title {
-        font-size: 23px;
-    }
-    .card {
-        height: 300px;
-    }
-    
-}
-
-@media screen and (min-width: 900px) {
-    .card-title {
-        font-size: 45px;
-    }
-}
 
 .card:hover {
     transform: scale(1.2);
@@ -243,4 +223,29 @@
     text-align: center;
     align-items: center;
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+
+    }
+    .card-title {
+        font-size: 23px;
+    }
+    .card {
+        height: 300px;
+    }
+    .card-date {
+        font-size: .9em;
+        text-shadow: -1px 1px 1px  var(--red);
+    }
+    
+}
+
+@media screen and (min-width: 900px) {
+    .card-title {
+        font-size: 45px;
+    }
 }
