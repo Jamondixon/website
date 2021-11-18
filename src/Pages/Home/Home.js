@@ -4,7 +4,7 @@ import './Home.css';
 import JamonDixon from '../../Images/Jtitle.png'
 
 
-const Home = () => {
+const Home = (props) => {
     return (
         <div className="home-overall-container">
             <NavBar />

@@ -10,7 +10,7 @@
 
 .contact-title {
     text-align: center;
-    font-size: 10vw;
+    font-size: 8vw;
     margin: .4em;
     font-family: 'Acme';
     color: var(--lightblue);
@@ -76,12 +76,13 @@ h3 {
 
 .contact-email-title {
     animation: backInUp; 
-    animation-duration: 2s;
+    animation-duration: 3s;
+
 }
 
 .contact-phone-title {
     animation: backInUp; 
-    animation-duration: 2s;
+    animation-duration: 3s;
 }
 
 h4 {
@@ -114,8 +115,8 @@ h4 {
 }
 
 .contact-social-icon {
-    height: 12vh;
-    width: 12vh;
+    height: 20vw;
+    width: 20vw;
     padding: 2em;
 }
 
@@ -185,7 +186,7 @@ input::placeholder {
 }
 
 button {
-    width: 120px;
+    width: 16vw;
     height: 50px;
     background-color: var(--red);
     border-radius: 10px;
@@ -233,6 +234,13 @@ button:active {
     }
     .contact-form {
         height: 20em;
+    }
+    .contact-social-icon {
+        height: 30px;
+        width: 30px;
+        padding: .2em;
+        margin-bottom: .5em;
+        
     }
     
 }

@@ -1,7 +1,7 @@
 import Nav from '../../Components/Nav/NavBar'
 import './Projects.css'
 
-const Projects = () => {
+const Projects = (props) => {
     return (
         <div className="projects-overall-container">
             <Nav />

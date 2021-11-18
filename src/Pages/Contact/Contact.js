@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
 import Nav from '../../Components/Nav/NavBar'
-import LinkedIn from "../../Images/linkedIn.png"
+import LinkedIn from "../../Images/li.png"
 import Github from "../../Images/github.png"
-import Facebook from "../../Images/facebook.png"
+import Facebook from "../../Images/fb.png"
 import Medium from "../../Images/medium.png"
 import Email from "../../Images/cropped-email.png"
 import Phone from "../../Images/cropped-phone.png"
 // import Swal from 'sweetalert2'
 import emailjs from 'emailjs-com';
 import './Contact.css'
+import Loader from '../../Components/Loader/Loader';
 
-const Contact = () => {
+const Contact = (props) => {
+    
+
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [subject, setSubject] = useState('');
@@ -64,6 +67,7 @@ const Contact = () => {
     };
     return (
         <div className="contact-overall-container">
+            <Loader/>
             <Nav />
             <div className="contact-container">
                 <div className="contact-title-container">

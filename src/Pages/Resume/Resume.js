@@ -2,7 +2,7 @@ import Nav from '../../Components/Nav/NavBar'
 import Doc from '../../Images/Resume.pdf'
 import './Resume.css'
 
-const Resume = () => {
+const Resume = (props) => {
     return (
         <div className="resume-overall-container">
             <Nav />

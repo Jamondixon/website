@@ -2,7 +2,7 @@ import Nav from '../../Components/Nav/NavBar'
 import './Blogs.css'
 import Medium from "../../Images/medium.png"
 
-const Blogs = () => {
+const Blogs = (props) => {
     return (
         <div className="blogs-overall-container">
             <Nav />

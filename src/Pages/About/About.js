@@ -7,7 +7,7 @@ import Skills from '../../Images/skillscropped.png'
 import Professional from '../../Images/professionalcropped.png'
 import Personal from '../../Images/personalcropped.png'
 
-const About = () => {
+const About = (props) => {
     return (
         <div className="about-overall-container">
             <Nav />
