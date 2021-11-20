@@ -1,5 +1,6 @@
 import Nav from '../../Components/Nav/NavBar'
 import './Projects.css'
+import Quesofinder from "../../Images/303quesofinder.png"
 
 const Projects = (props) => {
     return (
@@ -14,6 +15,7 @@ const Projects = (props) => {
                         <div className="projects-card-title-container">
                             <h2 className="projects-card-title">303 QuesoFinder</h2>
                         </div>
+                        <img src={Quesofinder}  className="quesofinder" alt="queso finder pic" loading="lazy" />
                         <div className="anchor-container">
                             <a className="projects-card-link"
                             href='https://hopeful-raman-70b1e5.netlify.app/'
