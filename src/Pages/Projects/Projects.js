@@ -123,7 +123,7 @@ const Projects = (props) => {
                         </div>
                         <hr className="solid"/>
                         <div className="projects-card-description-container">
-                            <h3 className="projects-card-description">Ruby CLI app that matches users with drink recipes.</h3>
+                            <h3 className="projects-card-description">Ruby CLI application that matches users with drink recipes made from their chosen spirit.</h3>
                         </div>
                         <div className="anchor-container">
                             <a className="projects-card-link"
