@@ -55,7 +55,7 @@
 }
 
 
-h3 {
+.contact-email-title {
     text-align: center;
     font-size: 6vw;
     font-family: 'Acme';
@@ -71,26 +71,30 @@ h3 {
     0 0 151px #f40305;
     padding-top: .6em;
     margin: 0;
-    
-}
-
-.contact-email-title {
     animation: backInUp; 
     animation-duration: 3s;
     margin: .5em;
 }
 
 .contact-phone-title {
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'Acme';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
+    padding-top: .6em;
+    margin: 0;
     animation: backInUp; 
     animation-duration: 3s;
     margin: .5em;
-}
-
-h4 {
-    text-align: center;
-    font-size: 6vw;
-    font-family: 'KoHo';
-    text-shadow:   2px -2px 2px var(--lightblue);
 }
 
 .email-value {
@@ -123,7 +127,20 @@ h4 {
 
 .message-text {
     font-size: 6vw;
+    text-align: center;
     margin-bottom: .25em;
+    padding-top: .5em;
+    font-family: 'Acme';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 }
 
 .form-container {

@@ -76,7 +76,7 @@ const Contact = (props) => {
                 <div className='form-side'>
                     <div className='form-container'>
                         <form className='contact-form' onSubmit={sendEmail}>
-                        <h3 className='message-text'>Message me!</h3>
+                        <h3 className='message-text'>Message me</h3>
                         <input
                             type='text'
                             placeholder='Name...'
