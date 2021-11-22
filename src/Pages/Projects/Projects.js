@@ -1,10 +1,10 @@
 import Nav from '../../Components/Nav/NavBar'
 import './Projects.css'
 import Quesofinder from "../../Images/303quesofinder.png"
-import Cryptocurrent from "../../Images/303quesofinder.png"
-import Forgottenfriend from "../../Images/303quesofinder.png"
-import Justflingit from "../../Images/303quesofinder.png"
-import Guessinggame from "../../Images/303quesofinder.png"
+import Cryptocurrent from "../../Images/cryptocurrent.png"
+import Forgottenfriend from "../../Images/forgottenfriend.png"
+import Justflingit from "../../Images/justflingit.png"
+import Guessinggame from "../../Images/GuessingGame.png"
 import Computender from "../../Images/303quesofinder.png"
 
 const Projects = (props) => {
@@ -103,7 +103,7 @@ const Projects = (props) => {
                         </div>
                         <hr className="solid"/>
                         <div className="projects-card-description-container">
-                            <h3 className="projects-card-description">Higher-lower guessing game created with JavaScript where user decides the number range and attempts to guess a random number in between.</h3>
+                            <h3 className="projects-card-description">Higher-lower JavaScript guessing game where user decides the number range and attempts to guess a random number in between.</h3>
                         </div>
                         <div className="anchor-container">
                             <a className="projects-card-link"
@@ -123,7 +123,7 @@ const Projects = (props) => {
                         </div>
                         <hr className="solid"/>
                         <div className="projects-card-description-container">
-                            <h3 className="projects-card-description">Ruby CLI app that matches users with drink recipes</h3>
+                            <h3 className="projects-card-description">Ruby CLI app that matches users with drink recipes.</h3>
                         </div>
                         <div className="anchor-container">
                             <a className="projects-card-link"

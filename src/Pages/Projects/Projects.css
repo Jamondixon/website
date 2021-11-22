@@ -93,6 +93,7 @@
 
 .anchor-container {
     text-align: center;
+    margin: 0;
 }
 
 .projects-card-button {
@@ -107,7 +108,6 @@
     border-width: medium;
     border-color: var(--darkblue);
     cursor: pointer;
-    margin-top: 3em;
     
 }
 
@@ -119,7 +119,26 @@
 .quesofinder {
     height: 12em;
     width: 100%;
-    border-radius: 6px;
+}
+.cryptocurrent {
+    height: 12em;
+    width: 100%;
+}
+.forgottenfriend {
+    height: 12em;
+    width: 100%;
+}
+.justflingit {
+    height: 12em;
+    width: 100%;
+}
+.guessinggame {
+    height: 12em;
+    width: 100%;
+}
+.computender {
+    height: 12em;
+    width: 100%;
 }
 
 
@@ -164,99 +183,104 @@
 }
 
 .projects-card-two {
-    background: url('../../Images/cryptocurrent.png') no-repeat center;
-    background-size: cover;
+    /* background: url('../../Images/cryptocurrent.png') no-repeat center;
+    background-size: cover; */
+    background-color: white;
     background-position: fixed;
-    border: 6px solid var(--black);
+    border: 2px solid var(--darkblue);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     height: 400px;
     left: 0;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
     top: 10%;
     width: 80%;
     transition: .3s;
 }
 
 .projects-card-three {
-    background: url('../../Images/forgottenfriend.png') no-repeat center;
-    background-size: cover;
+    /* background: url('../../Images/forgottenfriend.png') no-repeat center;
+    background-size: cover; */
+    background-color: white;
     background-position: fixed;
-    border: 6px solid var(--black);
+    border: 2px solid var(--darkblue);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     height: 400px;
     left: 0;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
     top: 10%;
     width: 80%;
     transition: .3s;
 }
 
 .projects-card-four {
-    background: url('../../Images/justflingit.png') no-repeat center;
-    background-size: cover;
+    /* background: url('../../Images/justflingit.png') no-repeat center;
+    background-size: cover; */
+    background-color: white;
     background-position: fixed;
-    border: 6px solid var(--black);
+    border: 2px solid var(--darkblue);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     height: 400px;
     left: 0;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
     top: 10%;
     width: 80%;
     transition: .3s;
 }
 
 .projects-card-five {
-    background: url('../../Images/GuessingGame.png') no-repeat center;
-    background-size: cover;
+    /* background: url('../../Images/GuessingGame.png') no-repeat center;
+    background-size: cover; */
+    background-color: white;
     background-position: fixed;
-    border: 6px solid var(--black);
+    border: 2px solid var(--darkblue);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     height: 400px;
     left: 0;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
     top: 10%;
     width: 80%;
     transition: .3s;
 }
 .projects-card-six {
-    background: url('../../Images/Computender.png') no-repeat center;
-    background-size: cover;
+    /* background: url('../../Images/Computender.png') no-repeat center;
+    background-size: cover; */
+    background-color: white;
     background-position: fixed;
-    border: 6px solid var(--black);
+    border: 2px solid var(--darkblue);
     border-radius: 10px;
     box-shadow: 0px 10px 10px 8px var(--darkblue);
     height: 400px;
     left: 0;
     margin: 0 auto;
-    max-width: 600px;
+    max-width: 500px;
     overflow: hidden;
     position: relative;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
     top: 10%;
     width: 80%;
     transition: .3s;
