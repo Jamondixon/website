@@ -57,7 +57,7 @@ const About = (props) => {
                             {/* <h2 className='about-subtitle'>PERSONAL LIFE</h2> */}
                             <img src={Personal} className="personal-title" alt="personal" loading="lazy"/>
                             <p className='about-body'>
-                                I'm an avid sports fan and love to go see live music with my fiancé, Ellie. She and I love to travel and sample the best food and drink from the region. I'm a regular at music festivals all over the United States and you can always find me at my local disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. As of late, I have taken an interest in cryptocurrency and the latest blockchain technologies.
+                                I'm an avid sports fan and love to go see live music with my fiancé, Ellie. We also enjoy traveling and sampling the best food and drink from the region. I'm a regular at music festivals all over the United States and you can always find me at my local disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. As of late, I have taken an interest in cryptocurrency and the latest blockchain technologies.
                             </p>
                         </div>
                     </div>
