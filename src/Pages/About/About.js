@@ -17,7 +17,7 @@ const About = (props) => {
                         <h1 className="about-title">ABOUT</h1>
                     </div>
                     <div className="profile-image-container">
-                        <img src={Profile} className="profile-image" alt="Jamon headshot"/>
+                        <img src={Profile} className="profile-image" alt="Jamon headshot" loading="lazy"/>
                     </div>
                     <div className="skill-container">
                         <div className="skill-heading-container">
@@ -45,17 +45,17 @@ const About = (props) => {
                     <div className='text-container'>
                         <div className='professional-paragraph-container'>
                             {/* <h2 className='about-subtitle'>PROFESSIONAL LIFE</h2> */}
-                            <img src={Professional} className="professional-title" alt="professional" />
+                            <img src={Professional} className="professional-title" alt="professional" loading="lazy"/>
                             <p className='about-body'>
                                 Hi, my name is Jamon Dixon and I am a native Texan currently residing in Austin. I have always had a passion for figuring out what makes things work behind the scences and have translated that quality into my pursuit of web and software development. Frontend development is quickly becoming my favorite to work with, but I am a capable full-stack engineer.  As a graduate of Texas Tech University and Flatiron School, I come to the tech industry commited to being a lifelong learner and capable of conquering whatever life throws at me. I use my experience across many different industries and my ability to adapt to any type of environment to succeed at whatever I put my mind to.
                             </p>
                         </div>
                         <div className="queso-image-container">
-                            <img className="queso-image" src={Queso} alt="queso scene" />
+                            <img className="queso-image" src={Queso} alt="queso scene" loading="lazy"/>
                         </div>
                         <div className='personal-paragraph-container'>
                             {/* <h2 className='about-subtitle'>PERSONAL LIFE</h2> */}
-                            <img src={Personal} className="personal-title" alt="personal" />
+                            <img src={Personal} className="personal-title" alt="personal" loading="lazy"/>
                             <p className='about-body'>
                                 I'm an avid sports fan and love to go see live music with my fiancé, Ellie. She and I love to travel and sample the best food and drink from the region. I'm a regular at music festivals all over the United States and you can always find me at my local disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. As of late, I have taken an interest in cryptocurrency and the latest blockchain technologies.
                             </p>
