@@ -26,7 +26,7 @@
     background: url('../../Images/bluebrick.jpg') no-repeat center;
     background-size: 100%;
     border-bottom: 6px  solid var(--black);
-    margin-bottom: 2em;
+    
 }
 
 .about-title {
@@ -60,7 +60,7 @@
     width: 40%;
 }
 
-.profile-image {
+/* .profile-image {
     height: 50%;
     max-width: 100%;
     padding: 2em;
@@ -72,37 +72,35 @@
     border-width: 6px;
     border-radius: 10px;
     cursor: pointer;
-}
+} */
 
-
-
-
-.profile-image:hover {
+/* .profile-image:hover {
     transform: scale(1.3);
     transition: all 0.3s;
-}
+} */
 
 .queso-image-container {
     display: flex;
     float: right;
     margin-bottom: 2em;
+    
 }
-
 
 .queso-image {
     max-height: 50vw;
     max-width: 50vw;
     height: 80%;
     width: 80%;
+    left: 40px;
     position: relative;
-    margin-right: 1vw;
-    margin-left: 2vw;
+    margin-right: .5vw;
+    margin-left: 1vw;
     border:  solid var(--black);
     border-width: 6px;
     border-radius: 10px;
 }
 
-.skill-container {
+/* .skill-container {
     display: flex;
     flex-direction: row;
     float: left;
@@ -122,15 +120,15 @@
     border-radius: 10px;
     border: solid var(--black);
     border-width: 6px;
-    
-}
+} */
+
+
 
 .skill-heading-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    
 }
 
 .skill-list {
@@ -141,16 +139,17 @@
 
 .skill-title {
     display: block;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    width: 75%;
+    width: 35%;
+    /* height: 10em; */
     margin-left: 1.2em;
 
 }
 
 .skill-list-item {
 font-family: "KoHo";
-font-size: 1.5em;
+font-size: 3vw;
 font-weight: 600;
 color:white;
 text-shadow:  2px  2px var(--red);
@@ -182,7 +181,7 @@ text-shadow:  2px  2px var(--red);
 
 .personal-title {
     float: left;
-    margin: 1em;
+    margin: .5em;
     width: 40%;
 }
 
@@ -204,7 +203,7 @@ text-shadow:  2px  2px var(--red);
     .personal-title {
         width: 35%;
     }
-    .skill-container {
+    /* .skill-container {
         height: 350px;
         width: 75px;
         
@@ -216,5 +215,5 @@ text-shadow:  2px  2px var(--red);
     .skill-title {
         width: 55%;
         
-    }
+    } */
 }

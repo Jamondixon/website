@@ -1,7 +1,7 @@
 import React from 'react';
 import Nav from '../../Components/Nav/NavBar';
 import './About.css';
-import Profile from '../../Images/headshotcropped1.png'
+// import Profile from '../../Images/headshotcropped1.png'
 import Queso from '../../Images/prettyjamon1.jpg'
 import Skills from '../../Images/skillscropped.png'
 import Professional from '../../Images/professionalcropped.png'
@@ -16,28 +16,9 @@ const About = (props) => {
                     <div className="about-title-container">
                         <h1 className="about-title">ABOUT</h1>
                     </div>
-                    <div className="profile-image-container">
+                    {/* <div className="profile-image-container">
                         <img src={Profile} className="profile-image" alt="Jamon headshot" loading="lazy"/>
-                    </div>
-                    <div className="skill-container">
-                        <div className="skill-heading-container">
-                            <img src={Skills} className="skill-title" alt="skills" />
-                            
-                            <ul className="skill-list">
-                                <li className='skill-list-item'>HTML</li>
-                                <li className='skill-list-item'>CSS</li>
-                                <li className='skill-list-item'>Ruby</li>
-                                <li className='skill-list-item'>Ruby on Rails</li>
-                                <li className='skill-list-item'>Javascript</li>
-                                <li className='skill-list-item'>React</li>
-                                <li className='skill-list-item'>React Native</li>
-                                <li className='skill-list-item'>Heroku</li>
-                                <li className='skill-list-item'>Bootstrap</li>
-                                <li className='skill-list-item'>Git</li>
-                            </ul>
-                            
-                        </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="padding-div">
                 </div>
@@ -60,6 +41,24 @@ const About = (props) => {
                                 I'm an avid sports fan and love to see live music with my fiancé, Ellie. We also enjoy traveling and sampling the best food and drink from the region. I'm a regular at music festivals all over the United States and you can always find me at my local disc golf course in my free time. When I am not out and about I enjoy curling up on the couch to watch a good movie with my fluffy, black, rescue cat named Artemis. As of late, I have taken an interest in cryptocurrency and the latest blockchain technologies.
                             </p>
                         </div>
+                    </div>
+                </div>
+                <div className="skill-container">
+                    <div className="skill-heading-container">
+                        <img src={Skills} className="skill-title" alt="skills" />
+                        
+                        <ul className="skill-list">
+                            <li className='skill-list-item'>HTML</li>
+                            <li className='skill-list-item'>CSS</li>
+                            <li className='skill-list-item'>Ruby</li>
+                            <li className='skill-list-item'>Ruby on Rails</li>
+                            <li className='skill-list-item'>Javascript</li>
+                            <li className='skill-list-item'>React</li>
+                            <li className='skill-list-item'>React Native</li>
+                            <li className='skill-list-item'>Heroku</li>
+                            <li className='skill-list-item'>Bootstrap</li>
+                            <li className='skill-list-item'>Git</li>
+                        </ul>
                     </div>
                 </div>
             </div>
