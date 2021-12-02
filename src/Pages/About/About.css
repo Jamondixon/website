@@ -181,7 +181,7 @@ text-shadow:  2px  2px var(--red);
 
 .personal-title {
     float: left;
-    margin: .5em;
+    margin-right: 1em;
     width: 40%;
 }
 
@@ -201,7 +201,7 @@ text-shadow:  2px  2px var(--red);
         margin-bottom: 1em;
     }
     .personal-title {
-        width: 35%;
+        width: 40%;
     }
     /* .skill-container {
         height: 350px;

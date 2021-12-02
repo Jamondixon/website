@@ -61,6 +61,11 @@ const About = (props) => {
                         </ul>
                     </div>
                 </div>
+                <div className="education-container">
+                    <div className="education-title-container">
+                        <h3 className="education-title">Education</h3>
+                    </div>
+                </div>
             </div>
         </div>
     );
