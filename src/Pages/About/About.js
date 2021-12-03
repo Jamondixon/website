@@ -3,7 +3,7 @@ import Nav from '../../Components/Nav/NavBar';
 import './About.css';
 // import Profile from '../../Images/headshotcropped1.png'
 import Queso from '../../Images/prettyjamon1.jpg'
-import Skills from '../../Images/skillscropped.png'
+// import Skills from '../../Images/skillscropped.png'
 import Professional from '../../Images/professionalcropped.png'
 import Personal from '../../Images/personalcropped.png'
 
@@ -45,8 +45,8 @@ const About = (props) => {
                 </div>
                 <div className="skill-container">
                     <div className="skill-heading-container">
-                        <img src={Skills} className="skill-title" alt="skills" />
-                        
+                        {/* <img src={Skills} className="skill-title" alt="skills" /> */}
+                        <h3 className="skill-title">Skills</h3>
                         <ul className="skill-list">
                             <li className='skill-list-item'>HTML</li>
                             <li className='skill-list-item'>CSS</li>
