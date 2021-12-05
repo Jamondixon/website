@@ -142,8 +142,20 @@
     align-items: flex-start;
     justify-content: center;
     width: 35%;
-    /* height: 10em; */
     margin-left: 1.2em;
+    font-size: 8vw;
+    margin: .4em;
+    font-family: 'Acme';
+    color: var(--lightblue);
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #f40305,
+    0 0 42px #f40305,
+    0 0 82px #f40305,
+    0 0 92px #f40305,
+    0 0 102px #f40305,
+    0 0 151px #f40305;
 
 }
 
