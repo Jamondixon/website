@@ -65,6 +65,10 @@ const About = (props) => {
                     <div className="education-title-container">
                         <h3 className="education-title">Education</h3>
                     </div>
+                    <div className="education-body-container">
+                        <p className="education-body">
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
