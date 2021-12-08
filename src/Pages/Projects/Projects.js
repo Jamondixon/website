@@ -5,7 +5,7 @@ import Cryptocurrent from "../../Images/cryptocurrent.png"
 import Forgottenfriend from "../../Images/forgottenfriend.png"
 import Justflingit from "../../Images/justflingit.png"
 import Guessinggame from "../../Images/GuessingGame.png"
-import Computender from "../../Images/303quesofinder.png"
+import Computender from "../../Images/Computender.png"
 
 const Projects = (props) => {
     return (
